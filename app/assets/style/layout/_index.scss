@@ -155,17 +155,9 @@
   }
 }
 
-<<<<<<< HEAD
-//方案選擇 起點~~~
-.plan-choose-img {
-  .img-fluid {
-    object-fit: cover;
-  }
-}
-=======
 // multi-lessons
 
-.multi-lessons{
+.multi-lessons {
   @include media-breakpoint-down(md) {
     padding: map-get($spacers, 9) 0;
   }
@@ -173,4 +165,10 @@
 
 // multi-lessons end
 
->>>>>>> b5f1b0b26c4d1fc452f1caaa774c3bcce2f7e1e1
+
+//方案選擇 起點~~~
+.plan-choose-img {
+  .img-fluid {
+    object-fit: cover;
+  }
+}
