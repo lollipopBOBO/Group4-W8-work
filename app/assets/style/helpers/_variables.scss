@@ -292,7 +292,7 @@ $position-values: (
 // Settings for the `<body>` element.
 
 $body-bg:                   $white !default;
-$body-color:                $gray-900 !default;
+$body-color:                $dark !default; //$gray-900
 $body-text-align:           null !default;
 
 
@@ -358,7 +358,7 @@ $container-max-widths: (
 // Set the number of columns and specify the width of the gutters.
 
 $grid-columns:                12 !default;
-$grid-gutter-width:           1.5rem !default;
+$grid-gutter-width:           1.875rem !default; //1.5
 $grid-row-columns:            6 !default;
 
 $gutters: $spacers !default;
