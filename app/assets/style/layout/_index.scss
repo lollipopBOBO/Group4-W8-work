@@ -137,3 +137,27 @@
 }
 
 // 頂尖師資 終點~~~
+
+//舒適空間 起點~~~
+
+
+.nice-space-text {
+   @include media-breakpoint-up(lg) {
+    padding: 145px 0px !important;
+  }
+}
+
+.nice-space-img {
+  
+  // outline: 1px solid red;
+
+  .img-fluid  {
+    object-fit: cover;
+   
+  }
+
+
+
+ 
+}
+
