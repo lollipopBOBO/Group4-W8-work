@@ -67,14 +67,14 @@ $colors: (
 // scss-docs-end colors-map
 
 // scss-docs-start theme-color-variables
-$primary:       #C0A4A5// #00cc99; // $blue !default;
-$secondary:     #907A7B//$gray-600 !default;
+$primary:       #C0A4A5;// #00cc99; // $blue !default;
+$secondary:     #907A7B;//$gray-600 !default;
 $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
-$light:         #F5F0E7//$gray-100 !default;
-$dark:          #707070//$gray-900 !default;
+$light:         #F5F0E7;//$gray-100 !default;
+$dark:          #707070;//$gray-900 !default;
 // scss-docs-end theme-color-variables
 
 // scss-docs-start theme-colors-map
@@ -463,10 +463,10 @@ $line-height-sm:              1.25 !default;
 $line-height-lg:              2 !default;
 
 $h1-font-size:                $font-size-base * 2.5 !default;
-$h2-font-size:                $font-size-base * 2.25//2 !default;
-$h3-font-size:                $font-size-base * 2//1.75 !default;
-$h4-font-size:                $font-size-base * 1.75 //1.5 !default;
-$h5-font-size:                $font-size-base * 1.5 //1.25 !default;
+$h2-font-size:                $font-size-base * 2.25;//2 !default;
+$h3-font-size:                $font-size-base * 2;//1.75 !default;
+$h4-font-size:                $font-size-base * 1.75; //1.5 !default;
+$h5-font-size:                $font-size-base * 1.5; //1.25 !default;
 $h6-font-size:                $font-size-base * 1.25 !default;
 $h7-font-size:                $font-size-base !default;  //16px
 // scss-docs-end font-variables
