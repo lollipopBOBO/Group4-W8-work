@@ -9373,6 +9373,10 @@ fieldset:disabled .btn {
   font-size: 1rem !important;
 }
 
+.fs-8 {
+  font-size: 0.875rem !important;
+}
+
 .fst-italic {
   font-style: italic !important;
 }
@@ -14424,24 +14428,8 @@ fieldset:disabled .btn {
   border-width: 5px !important;
 }
 
-.w-25 {
-  width: 25% !important;
-}
-
-.w-50 {
-  width: 50% !important;
-}
-
-.w-75 {
-  width: 75% !important;
-}
-
-.w-100 {
-  width: 100% !important;
-}
-
-.w-auto {
-  width: auto !important;
+.w-60 {
+  width: 60px !important;
 }
 
 .mw-100 {
@@ -15586,6 +15574,10 @@ fieldset:disabled .btn {
   font-size: 1rem !important;
 }
 
+.fs-8 {
+  font-size: 0.875rem !important;
+}
+
 .fst-italic {
   font-style: italic !important;
 }
@@ -15989,20 +15981,8 @@ fieldset:disabled .btn {
   .d-sm-none {
     display: none !important;
   }
-  .w-sm-25 {
-    width: 25% !important;
-  }
-  .w-sm-50 {
-    width: 50% !important;
-  }
-  .w-sm-75 {
-    width: 75% !important;
-  }
-  .w-sm-100 {
-    width: 100% !important;
-  }
-  .w-sm-auto {
-    width: auto !important;
+  .w-sm-60 {
+    width: 60px !important;
   }
   .h-sm-117 {
     height: 117px !important;
@@ -16870,6 +16850,9 @@ fieldset:disabled .btn {
   .fs-sm-7 {
     font-size: 1rem !important;
   }
+  .fs-sm-8 {
+    font-size: 0.875rem !important;
+  }
   .text-sm-start {
     text-align: left !important;
   }
@@ -16925,20 +16908,8 @@ fieldset:disabled .btn {
   .d-md-none {
     display: none !important;
   }
-  .w-md-25 {
-    width: 25% !important;
-  }
-  .w-md-50 {
-    width: 50% !important;
-  }
-  .w-md-75 {
-    width: 75% !important;
-  }
-  .w-md-100 {
-    width: 100% !important;
-  }
-  .w-md-auto {
-    width: auto !important;
+  .w-md-60 {
+    width: 60px !important;
   }
   .h-md-117 {
     height: 117px !important;
@@ -17806,6 +17777,9 @@ fieldset:disabled .btn {
   .fs-md-7 {
     font-size: 1rem !important;
   }
+  .fs-md-8 {
+    font-size: 0.875rem !important;
+  }
   .text-md-start {
     text-align: left !important;
   }
@@ -17861,20 +17835,8 @@ fieldset:disabled .btn {
   .d-lg-none {
     display: none !important;
   }
-  .w-lg-25 {
-    width: 25% !important;
-  }
-  .w-lg-50 {
-    width: 50% !important;
-  }
-  .w-lg-75 {
-    width: 75% !important;
-  }
-  .w-lg-100 {
-    width: 100% !important;
-  }
-  .w-lg-auto {
-    width: auto !important;
+  .w-lg-60 {
+    width: 60px !important;
   }
   .h-lg-117 {
     height: 117px !important;
@@ -18742,6 +18704,9 @@ fieldset:disabled .btn {
   .fs-lg-7 {
     font-size: 1rem !important;
   }
+  .fs-lg-8 {
+    font-size: 0.875rem !important;
+  }
   .text-lg-start {
     text-align: left !important;
   }
@@ -18797,20 +18762,8 @@ fieldset:disabled .btn {
   .d-xl-none {
     display: none !important;
   }
-  .w-xl-25 {
-    width: 25% !important;
-  }
-  .w-xl-50 {
-    width: 50% !important;
-  }
-  .w-xl-75 {
-    width: 75% !important;
-  }
-  .w-xl-100 {
-    width: 100% !important;
-  }
-  .w-xl-auto {
-    width: auto !important;
+  .w-xl-60 {
+    width: 60px !important;
   }
   .h-xl-117 {
     height: 117px !important;
@@ -19678,6 +19631,9 @@ fieldset:disabled .btn {
   .fs-xl-7 {
     font-size: 1rem !important;
   }
+  .fs-xl-8 {
+    font-size: 0.875rem !important;
+  }
   .text-xl-start {
     text-align: left !important;
   }
@@ -19733,20 +19689,8 @@ fieldset:disabled .btn {
   .d-xxl-none {
     display: none !important;
   }
-  .w-xxl-25 {
-    width: 25% !important;
-  }
-  .w-xxl-50 {
-    width: 50% !important;
-  }
-  .w-xxl-75 {
-    width: 75% !important;
-  }
-  .w-xxl-100 {
-    width: 100% !important;
-  }
-  .w-xxl-auto {
-    width: auto !important;
+  .w-xxl-60 {
+    width: 60px !important;
   }
   .h-xxl-117 {
     height: 117px !important;
@@ -20614,6 +20558,9 @@ fieldset:disabled .btn {
   .fs-xxl-7 {
     font-size: 1rem !important;
   }
+  .fs-xxl-8 {
+    font-size: 0.875rem !important;
+  }
   .text-xxl-start {
     text-align: left !important;
   }
@@ -20669,7 +20616,7 @@ fieldset:disabled .btn {
 }
 
 .banner {
-  background-image: url(../../../assets/images/hero/Banner.jpeg);
+  background-image: url(../images/hero/Banner.jpeg);
   height: 560px;
   background-size: cover;
   background-position: bottom center;
@@ -20875,11 +20822,6 @@ fieldset:disabled .btn {
   }
 }
 
-.nice-space-img .img-fluid {
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
 @media (max-width: 767.98px) {
   .multi-lessons {
     padding: 3rem 0;
@@ -20889,6 +20831,12 @@ fieldset:disabled .btn {
 .plan-choose-img .img-fluid {
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.customer-response .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .swiper-container {
