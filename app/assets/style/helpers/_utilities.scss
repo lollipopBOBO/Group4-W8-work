@@ -1,19 +1,14 @@
-
-
-
-
-
-
-
 $utilities: map-merge(
-$utilities,(
-"font-size": map-merge(
-      map-get($utilities,"font-size"),
-      (
-        responsive: true,
-      )
-    ),
-"rounded":  (
+  $utilities,
+  (
+    "font-size":
+      map-merge(
+        map-get($utilities, "font-size"),
+        (
+          responsive: true,
+        )
+      ),
+    "rounded": (
       property: border-radius,
       class: rounded,
       values: (
@@ -24,41 +19,46 @@ $utilities,(
         3: $border-radius-lg,
         4: $border-radius-xl,
         circle: 50%,
-        pill: $border-radius-pill
-        )
+        pill: $border-radius-pill,
       ),
-
-"width": map-merge(
-        map-get($utilities,"width"),
+    ),
+    "width":
+      map-merge(
+        map-get($utilities, "width"),
         (
           responsive: true,
+          values: (
+          60: 60px,
+          ),
         )
       ),
-
- "height": map-merge(
-        map-get($utilities,"height"),(
+    "height":
+      map-merge(
+        map-get($utilities, "height"),
+        (
           responsive: true,
           values: (
             117: 117px,
             207: 207px,
             210: 210px,
+            243: 243px,
             266: 266px,
             444: 444px,
             25: 25%,
             50: 50%,
             75: 75%,
             100: 100%,
-            auto: auto
-          )
+            auto: auto,
+          ),
         )
       ),
-    
-
-
   )
+);
 
-)
 
+.object-fit-cover {
+  object-fit: cover;
+}
 
 
 

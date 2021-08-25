@@ -8,16 +8,18 @@
     <title><%- title %></title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
     <link rel="stylesheet" href="./assets/style/bootstrap.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- Google icon -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="./assets/style/all.css">
   </head>
 
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container">
+      <div class="container py-4">
     
-        <a class="navbar-brand" href="#"><img class="logo" src="https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/DOYOGA-logo.png?raw=true" alt="logo"></a>
+        <div class="flex-grow-1"> <a class="navbar-brand" href="#"><img class="logo" src="https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/DOYOGA-logo.png?raw=true" alt="logo"></a></div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -25,15 +27,14 @@
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             
             <li class="nav-item">
-              <a class="nav-link nav-dark"  href="#">立即預約</a>
+              <a class="nav-link link-dark me-7 "  href="#">立即預約</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-dark" href="#">聯絡我們</a>
+              <a class="nav-link link-dark  me-7" href="#">聯絡我們</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-dark" href="#">
-                當月課表
-              </a>
+              <a class="nav-link link-dark" href="#">當月課表</a>
+              
               <!--<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item" href="#">Action</a></li>
                 <li><a class="dropdown-item" href="#">Another action</a></li>
@@ -45,10 +46,10 @@
           </ul>
            <ul class="list-unstyled mb-0 d-flex ">
             <li class="nav-item">
-              <a class="nav-link btn border border-secondary rounded-pill" href="#" tabindex="-1" aria-disabled="true">立即預約</a>
+              <a class="nav-link link-secondary btn border border-secondary  radius-own me-3 " href="#" tabindex="-1" aria-disabled="true">立即預約</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link btn border border-secondary rounded-pill ml-9" href="#" tabindex="-1" aria-disabled="true">聯絡我們</a>
+              <a class="nav-link link-secondary  btn border border-secondary radius-own" href="#" tabindex="-1" aria-disabled="true">聯絡我們</a>
             </li>
            </ul>
             <!--<form class="d-flex">
@@ -67,9 +68,9 @@
         <ul class=" list-unstyled d-flex flex-column flex-md-column flex-lg-row justify-content-lg-between l-epadding mb-5 pt-5">
           <li class="textsub mb-2">現在訂閱，獲得課程優惠碼！</li>
           <li> <form>
-            <div class="d-flex items-stretch w-100">
+            <div class="d-flex items-stretch w-100 ">
               <label for="email"></label>
-              <input type="email" name="email" placeholder="輸入您的電子信箱" class=" pl-3 rounded-tl rounded-bl pt-2 pb-2 border-0 flex-grow text-secondary">
+              <input type="email" name="email" placeholder="輸入您的電子信箱" class=" rounded-tl rounded-bl pt-2 pb-2 border-0 flex-grow text-secondary pl-3">
               <a href="#" class="btn bg-primary text-white rounded-tl-none rounded-bl-none pt-2 pb-2 ">訂閱</a>
                </div>
           </form></li>
@@ -99,6 +100,8 @@
     </footer>
 
     <script src="./assets/js/vendors.js"></script>
+    <!-- Swiper -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="./assets/js/all.js"></script>
   </body>
 

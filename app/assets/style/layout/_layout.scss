@@ -1,5 +1,5 @@
 .textsub{
-   color: $white;
+   color: #fff;
    font-size:$h5-font-size ;
    font-weight: normal;
 
@@ -7,11 +7,19 @@
 .l-epadding{
     padding-left: 15px;
     padding-right: 15px;
+    @include pad{
+        padding-left: 39px;
+        padding-right: 39px;
+      }
+      @include pc{
+        padding-left: 85px;
+        padding-right: 85px;
+      }
 }
 
 .textfunct{
-   color: $white;
-   font-size:$h7-font-size;
+   color: #fff;
+   font-size:$font-size-base;
    font-weight: 200;
 }
 .iconsns-s{
@@ -32,3 +40,6 @@
    
 }
 
+.radius-own{
+    border-radius:$border-radius-xl;
+}
