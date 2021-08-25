@@ -1,3 +1,19 @@
+//------banner---------
+.banner{
+  background-image: url(../../../assets/images/hero/Banner.jpeg);
+  height: 560px;
+  background-size: cover;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  h2{
+    margin-top: 10px;
+  }
+  @include media-breakpoint-up(md){
+    height: 582px;
+  }
+}
+
+
 // .index__h1 {
 //   color:#00cc99;
 //   font-size: 20px;
