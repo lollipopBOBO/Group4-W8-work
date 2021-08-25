@@ -1,0 +1,34 @@
+.textsub{
+   color: $white;
+   font-size:$h5-font-size ;
+   font-weight: normal;
+
+}
+.l-epadding{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.textfunct{
+   color: $white;
+   font-size:$h7-font-size;
+   font-weight: 200;
+}
+.iconsns-s{
+    height: 24px;
+    width: 24px;
+}
+.logo{
+    height: 31px;
+    width: 96px;
+}
+.ms-ipad-pc{
+    @include pad{
+        margin-left: 178px;
+      }
+      @include pc{
+        margin-left: 388px;
+      }
+   
+}
+

@@ -15,70 +15,83 @@
 
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+      <div class="container">
+    
+        <a class="navbar-brand" href="#"><img class="logo" src="https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/DOYOGA-logo.png?raw=true" alt="logo"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link nav-dark"  href="#">立即預約</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link nav-dark" href="#">聯絡我們</a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
+            <li class="nav-item">
+              <a class="nav-link nav-dark" href="#">
+                當月課表
               </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <!--<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item" href="#">Action</a></li>
                 <li><a class="dropdown-item" href="#">Another action</a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
+                <li><a class="dropdown-item" href="#">Something else here</a></li> 
+              </ul>-->
+            </li>
+      
+          </ul>
+           <ul class="list-unstyled mb-0 d-flex ">
+            <li class="nav-item">
+              <a class="nav-link btn border border-secondary rounded-pill" href="#" tabindex="-1" aria-disabled="true">立即預約</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              <a class="nav-link btn border border-secondary rounded-pill ml-9" href="#" tabindex="-1" aria-disabled="true">聯絡我們</a>
             </li>
-          </ul>
-          <form class="d-flex">
+           </ul>
+            <!--<form class="d-flex">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
+          </form>-->
         </div>
+      
       </div>
     </nav>
 
     <%- contents %>
 
     <footer class="footer bg-secondary">
-      <div>
-        <ul class="pb-5 list-unstyled border-bottom flex ">
-          <li class="">現在訂閱，獲得課程優惠碼！</li>
+      <div class="border-bottom">
+        <ul class=" list-unstyled d-flex flex-column flex-md-column flex-lg-row justify-content-lg-between l-epadding mb-5 pt-5">
+          <li class="textsub mb-2">現在訂閱，獲得課程優惠碼！</li>
           <li> <form>
-            <div class="contact">
+            <div class="d-flex items-stretch w-100">
               <label for="email"></label>
-              <input type="email" name="email" placeholder="輸入您的電子信箱" class="pl-3 rounded-tl rounded-bl flex-grow md:flex-grow-0">
-              <a href="#" class="btn bg-primary text-white rounded-tl-none rounded-bl-none px-12">訂閱</a>
+              <input type="email" name="email" placeholder="輸入您的電子信箱" class=" pl-3 rounded-tl rounded-bl pt-2 pb-2 border-0 flex-grow text-secondary">
+              <a href="#" class="btn bg-primary text-white rounded-tl-none rounded-bl-none pt-2 pb-2 ">訂閱</a>
                </div>
           </form></li>
         </ul>
         </div>  
-        <div>
-          <ul>
-            <li></li>
-            <li></li>
+        <div class="l-epadding mt-5 ">
+          <ul class="list-unstyled  d-flex justify-content-between mb-2">
+            <li><a class="" href="#"><img class="logo"src="https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/DOYOGA.png?raw=true"></a></li>
+            <li> <ul class=" list-unstyled d-flex justify-content-between ">
+              <li><a class="" href="#"><img class="iconsns-s me-2 "src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/icon-fb.svg"></a></li>
+              <li><a class="" href="#"><img class="iconsns-s me-2"src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/icon-ig.svg"></a></li>
+              <li><a class="" href="#"><img class="iconsns-s"src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/icon-line.svg"></a></li>
+            </li>
         </div>       
-        <div>
-          <ul>
-          <li></li>
-          <li></li>
+        <div class="l-epadding">
+          <ul class=" list-unstyled mb-0">
+          <li class="mb-2"><a href="#" class="textfunct">課程介紹</a></li>
+          <li class="mb-2"><a href="#" class="textfunct">瑜珈空間</a></li>
           <li>
-            <ul>
-              <li></li>
-              <li></li>
+            <ul class=" list-unstyled pb-7 d-flex flex-column flex-md-row">
+              <li class="mb-2"><a href="#" class="textfunct">當月課表</a></li>
+              <li class=><a href="#" class="textfunct ms-ipad-pc">© 2021. All Rights Reserved.</a></li>
             </ul>
           </li>
           </ul>
