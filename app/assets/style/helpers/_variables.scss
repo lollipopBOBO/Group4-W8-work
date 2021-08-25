@@ -470,7 +470,7 @@ $h3-font-size:                $font-size-base * 2;//1.75 !default;
 $h4-font-size:                $font-size-base * 1.75; //1.5 !default;
 $h5-font-size:                $font-size-base * 1.5; //1.25 !default;
 $h6-font-size:                $font-size-base * 1.25 !default;
-$h7-font-size:                $font-size-base !default;  //16px
+
 // scss-docs-end font-variables
 
 // scss-docs-start font-sizes
@@ -481,7 +481,8 @@ $font-sizes: (
   4: $h4-font-size, //28px
   5: $h5-font-size, //24px
   6: $h6-font-size, //20px
-  7: $h7-font-size, //16px
+  7: $font-size-base, //16px
+  8: $font-size-sm, //14px
 ) !default;
 // scss-docs-end font-sizes
 
