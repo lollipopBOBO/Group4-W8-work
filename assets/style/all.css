@@ -104,53 +104,23 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 }
 
 h1, .h1 {
-  font-size: calc(1.375rem + 1.5vw);
-}
-
-@media (min-width: 1200px) {
-  h1, .h1 {
-    font-size: 2.5rem;
-  }
+  font-size: 2.5rem;
 }
 
 h2, .h2 {
-  font-size: calc(1.35rem + 1.2vw);
-}
-
-@media (min-width: 1200px) {
-  h2, .h2 {
-    font-size: 2.25rem;
-  }
+  font-size: 2.25rem;
 }
 
 h3, .h3 {
-  font-size: calc(1.325rem + 0.9vw);
-}
-
-@media (min-width: 1200px) {
-  h3, .h3 {
-    font-size: 2rem;
-  }
+  font-size: 2rem;
 }
 
 h4, .h4 {
-  font-size: calc(1.3rem + 0.6vw);
-}
-
-@media (min-width: 1200px) {
-  h4, .h4 {
-    font-size: 1.75rem;
-  }
+  font-size: 1.75rem;
 }
 
 h5, .h5 {
-  font-size: calc(1.275rem + 0.3vw);
-}
-
-@media (min-width: 1200px) {
-  h5, .h5 {
-    font-size: 1.5rem;
-  }
+  font-size: 1.5rem;
 }
 
 h6, .h6 {
@@ -417,14 +387,8 @@ legend {
   width: 100%;
   padding: 0;
   margin-bottom: 0.5rem;
-  font-size: calc(1.275rem + 0.3vw);
+  font-size: 1.5rem;
   line-height: inherit;
-}
-
-@media (min-width: 1200px) {
-  legend {
-    font-size: 1.5rem;
-  }
 }
 
 legend + * {
@@ -502,75 +466,39 @@ progress {
 }
 
 .display-1 {
-  font-size: calc(1.625rem + 4.5vw);
+  font-size: 5rem;
   font-weight: 300;
   line-height: 1.2;
-}
-
-@media (min-width: 1200px) {
-  .display-1 {
-    font-size: 5rem;
-  }
 }
 
 .display-2 {
-  font-size: calc(1.575rem + 3.9vw);
+  font-size: 4.5rem;
   font-weight: 300;
   line-height: 1.2;
-}
-
-@media (min-width: 1200px) {
-  .display-2 {
-    font-size: 4.5rem;
-  }
 }
 
 .display-3 {
-  font-size: calc(1.525rem + 3.3vw);
+  font-size: 4rem;
   font-weight: 300;
   line-height: 1.2;
-}
-
-@media (min-width: 1200px) {
-  .display-3 {
-    font-size: 4rem;
-  }
 }
 
 .display-4 {
-  font-size: calc(1.475rem + 2.7vw);
+  font-size: 3.5rem;
   font-weight: 300;
   line-height: 1.2;
-}
-
-@media (min-width: 1200px) {
-  .display-4 {
-    font-size: 3.5rem;
-  }
 }
 
 .display-5 {
-  font-size: calc(1.425rem + 2.1vw);
+  font-size: 3rem;
   font-weight: 300;
   line-height: 1.2;
-}
-
-@media (min-width: 1200px) {
-  .display-5 {
-    font-size: 3rem;
-  }
 }
 
 .display-6 {
-  font-size: calc(1.375rem + 1.5vw);
+  font-size: 2.5rem;
   font-weight: 300;
   line-height: 1.2;
-}
-
-@media (min-width: 1200px) {
-  .display-6 {
-    font-size: 2.5rem;
-  }
 }
 
 .list-unstyled {
@@ -9418,23 +9346,23 @@ fieldset:disabled .btn {
 }
 
 .fs-1 {
-  font-size: calc(1.375rem + 1.5vw) !important;
+  font-size: 2.5rem !important;
 }
 
 .fs-2 {
-  font-size: calc(1.35rem + 1.2vw) !important;
+  font-size: 2.25rem !important;
 }
 
 .fs-3 {
-  font-size: calc(1.325rem + 0.9vw) !important;
+  font-size: 2rem !important;
 }
 
 .fs-4 {
-  font-size: calc(1.3rem + 0.6vw) !important;
+  font-size: 1.75rem !important;
 }
 
 .fs-5 {
-  font-size: calc(1.275rem + 0.3vw) !important;
+  font-size: 1.5rem !important;
 }
 
 .fs-6 {
@@ -14135,24 +14063,6 @@ fieldset:disabled .btn {
   }
 }
 
-@media (min-width: 1200px) {
-  .fs-1 {
-    font-size: 2.5rem !important;
-  }
-  .fs-2 {
-    font-size: 2.25rem !important;
-  }
-  .fs-3 {
-    font-size: 2rem !important;
-  }
-  .fs-4 {
-    font-size: 1.75rem !important;
-  }
-  .fs-5 {
-    font-size: 1.5rem !important;
-  }
-}
-
 @media print {
   .d-print-inline {
     display: inline !important;
@@ -14556,6 +14466,10 @@ fieldset:disabled .btn {
 
 .h-210 {
   height: 210px !important;
+}
+
+.h-243 {
+  height: 243px !important;
 }
 
 .h-266 {
@@ -15645,23 +15559,23 @@ fieldset:disabled .btn {
 }
 
 .fs-1 {
-  font-size: calc(1.375rem + 1.5vw) !important;
+  font-size: 2.5rem !important;
 }
 
 .fs-2 {
-  font-size: calc(1.35rem + 1.2vw) !important;
+  font-size: 2.25rem !important;
 }
 
 .fs-3 {
-  font-size: calc(1.325rem + 0.9vw) !important;
+  font-size: 2rem !important;
 }
 
 .fs-4 {
-  font-size: calc(1.3rem + 0.6vw) !important;
+  font-size: 1.75rem !important;
 }
 
 .fs-5 {
-  font-size: calc(1.275rem + 0.3vw) !important;
+  font-size: 1.5rem !important;
 }
 
 .fs-6 {
@@ -16098,6 +16012,9 @@ fieldset:disabled .btn {
   }
   .h-sm-210 {
     height: 210px !important;
+  }
+  .h-sm-243 {
+    height: 243px !important;
   }
   .h-sm-266 {
     height: 266px !important;
@@ -16933,19 +16850,19 @@ fieldset:disabled .btn {
     padding-left: 4rem !important;
   }
   .fs-sm-1 {
-    font-size: calc(1.375rem + 1.5vw) !important;
+    font-size: 2.5rem !important;
   }
   .fs-sm-2 {
-    font-size: calc(1.35rem + 1.2vw) !important;
+    font-size: 2.25rem !important;
   }
   .fs-sm-3 {
-    font-size: calc(1.325rem + 0.9vw) !important;
+    font-size: 2rem !important;
   }
   .fs-sm-4 {
-    font-size: calc(1.3rem + 0.6vw) !important;
+    font-size: 1.75rem !important;
   }
   .fs-sm-5 {
-    font-size: calc(1.275rem + 0.3vw) !important;
+    font-size: 1.5rem !important;
   }
   .fs-sm-6 {
     font-size: 1.25rem !important;
@@ -17031,6 +16948,9 @@ fieldset:disabled .btn {
   }
   .h-md-210 {
     height: 210px !important;
+  }
+  .h-md-243 {
+    height: 243px !important;
   }
   .h-md-266 {
     height: 266px !important;
@@ -17866,19 +17786,19 @@ fieldset:disabled .btn {
     padding-left: 4rem !important;
   }
   .fs-md-1 {
-    font-size: calc(1.375rem + 1.5vw) !important;
+    font-size: 2.5rem !important;
   }
   .fs-md-2 {
-    font-size: calc(1.35rem + 1.2vw) !important;
+    font-size: 2.25rem !important;
   }
   .fs-md-3 {
-    font-size: calc(1.325rem + 0.9vw) !important;
+    font-size: 2rem !important;
   }
   .fs-md-4 {
-    font-size: calc(1.3rem + 0.6vw) !important;
+    font-size: 1.75rem !important;
   }
   .fs-md-5 {
-    font-size: calc(1.275rem + 0.3vw) !important;
+    font-size: 1.5rem !important;
   }
   .fs-md-6 {
     font-size: 1.25rem !important;
@@ -17964,6 +17884,9 @@ fieldset:disabled .btn {
   }
   .h-lg-210 {
     height: 210px !important;
+  }
+  .h-lg-243 {
+    height: 243px !important;
   }
   .h-lg-266 {
     height: 266px !important;
@@ -18799,19 +18722,19 @@ fieldset:disabled .btn {
     padding-left: 4rem !important;
   }
   .fs-lg-1 {
-    font-size: calc(1.375rem + 1.5vw) !important;
+    font-size: 2.5rem !important;
   }
   .fs-lg-2 {
-    font-size: calc(1.35rem + 1.2vw) !important;
+    font-size: 2.25rem !important;
   }
   .fs-lg-3 {
-    font-size: calc(1.325rem + 0.9vw) !important;
+    font-size: 2rem !important;
   }
   .fs-lg-4 {
-    font-size: calc(1.3rem + 0.6vw) !important;
+    font-size: 1.75rem !important;
   }
   .fs-lg-5 {
-    font-size: calc(1.275rem + 0.3vw) !important;
+    font-size: 1.5rem !important;
   }
   .fs-lg-6 {
     font-size: 1.25rem !important;
@@ -18897,6 +18820,9 @@ fieldset:disabled .btn {
   }
   .h-xl-210 {
     height: 210px !important;
+  }
+  .h-xl-243 {
+    height: 243px !important;
   }
   .h-xl-266 {
     height: 266px !important;
@@ -19732,19 +19658,19 @@ fieldset:disabled .btn {
     padding-left: 4rem !important;
   }
   .fs-xl-1 {
-    font-size: calc(1.375rem + 1.5vw) !important;
+    font-size: 2.5rem !important;
   }
   .fs-xl-2 {
-    font-size: calc(1.35rem + 1.2vw) !important;
+    font-size: 2.25rem !important;
   }
   .fs-xl-3 {
-    font-size: calc(1.325rem + 0.9vw) !important;
+    font-size: 2rem !important;
   }
   .fs-xl-4 {
-    font-size: calc(1.3rem + 0.6vw) !important;
+    font-size: 1.75rem !important;
   }
   .fs-xl-5 {
-    font-size: calc(1.275rem + 0.3vw) !important;
+    font-size: 1.5rem !important;
   }
   .fs-xl-6 {
     font-size: 1.25rem !important;
@@ -19830,6 +19756,9 @@ fieldset:disabled .btn {
   }
   .h-xxl-210 {
     height: 210px !important;
+  }
+  .h-xxl-243 {
+    height: 243px !important;
   }
   .h-xxl-266 {
     height: 266px !important;
@@ -20665,19 +20594,19 @@ fieldset:disabled .btn {
     padding-left: 4rem !important;
   }
   .fs-xxl-1 {
-    font-size: calc(1.375rem + 1.5vw) !important;
+    font-size: 2.5rem !important;
   }
   .fs-xxl-2 {
-    font-size: calc(1.35rem + 1.2vw) !important;
+    font-size: 2.25rem !important;
   }
   .fs-xxl-3 {
-    font-size: calc(1.325rem + 0.9vw) !important;
+    font-size: 2rem !important;
   }
   .fs-xxl-4 {
-    font-size: calc(1.3rem + 0.6vw) !important;
+    font-size: 1.75rem !important;
   }
   .fs-xxl-5 {
-    font-size: calc(1.275rem + 0.3vw) !important;
+    font-size: 1.5rem !important;
   }
   .fs-xxl-6 {
     font-size: 1.25rem !important;
@@ -20693,69 +20622,6 @@ fieldset:disabled .btn {
   }
   .text-xxl-center {
     text-align: center !important;
-  }
-}
-
-@media (min-width: 1200px) {
-  .fs-1 {
-    font-size: 2.5rem !important;
-  }
-  .fs-2 {
-    font-size: 2.25rem !important;
-  }
-  .fs-3 {
-    font-size: 2rem !important;
-  }
-  .fs-4 {
-    font-size: 1.75rem !important;
-  }
-  .fs-5 {
-    font-size: 1.5rem !important;
-  }
-  .fs-sm-1 {
-    font-size: 2.5rem !important;
-  }
-  .fs-sm-2 {
-    font-size: 2.25rem !important;
-  }
-  .fs-sm-3 {
-    font-size: 2rem !important;
-  }
-  .fs-sm-4 {
-    font-size: 1.75rem !important;
-  }
-  .fs-sm-5 {
-    font-size: 1.5rem !important;
-  }
-  .fs-md-1 {
-    font-size: 2.5rem !important;
-  }
-  .fs-md-2 {
-    font-size: 2.25rem !important;
-  }
-  .fs-md-3 {
-    font-size: 2rem !important;
-  }
-  .fs-md-4 {
-    font-size: 1.75rem !important;
-  }
-  .fs-md-5 {
-    font-size: 1.5rem !important;
-  }
-  .fs-lg-1 {
-    font-size: 2.5rem !important;
-  }
-  .fs-lg-2 {
-    font-size: 2.25rem !important;
-  }
-  .fs-lg-3 {
-    font-size: 2rem !important;
-  }
-  .fs-lg-4 {
-    font-size: 1.75rem !important;
-  }
-  .fs-lg-5 {
-    font-size: 1.5rem !important;
   }
 }
 
@@ -20800,6 +20666,24 @@ fieldset:disabled .btn {
 *::before,
 *::after {
   font-family: 'Noto Sans TC', sans-serif;
+}
+
+.banner {
+  background-image: url(../../../assets/images/hero/Banner.jpeg);
+  height: 560px;
+  background-size: cover;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+}
+
+.banner h2, .banner .h2 {
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  .banner {
+    height: 582px;
+  }
 }
 
 .top-teachers {
@@ -21000,6 +20884,11 @@ fieldset:disabled .btn {
   .multi-lessons {
     padding: 3rem 0;
   }
+}
+
+.plan-choose-img .img-fluid {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .swiper-container {
