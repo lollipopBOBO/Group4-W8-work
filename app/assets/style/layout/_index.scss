@@ -19,7 +19,65 @@
 //   font-size: 20px;
 //   font-weight: 400;
 // }
+//感受身心 起點
+.impact1{
+  background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/photo-1593810450967-f9c42742e326.jpeg?raw=true);
+  height: 420px;
+  width: 350px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  @include pad{
+    height: 252px;
+    width: 210px;
+  }
+  @include pc{
+    height: 420px;
+  width: 350px;
+  }
+}
 
+.impact2{
+  background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/photo-1593810451137-5dc55105dace.jpeg?raw=true);
+  height: 420px;
+  width: 350px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  @include pad{
+    height: 252px;
+    width: 210px;
+  }
+  @include pc{
+    height: 420px;
+    width: 350px;
+  }
+}
+
+.impact3{
+  background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/photo-1599901860904-17e6ed7083a0.jpeg?raw=true);
+  height: 420px;
+  width: 350px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  @include pad{
+    height: 252px;
+    width: 210px;
+  }
+  @include pc{
+    height: 420px;
+    width: 350px;
+  }
+}
+.titleimpact{
+  color: #fff;
+}
+.textimpact{
+  color: #fff;
+  font-size: $font-size-base;;
+}
+//感受身心 終點
 // 頂尖師資 起點~~~
 .top-teachers {
   padding: 32px 0 32px 0;
