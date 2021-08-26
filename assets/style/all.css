@@ -20833,10 +20833,87 @@ fieldset:disabled .btn {
      object-fit: cover;
 }
 
+.customer-response {
+  padding-bottom: 96px;
+}
+
 .customer-response .card {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.swiper-button-next::after {
+  content: "\f1df";
+  font-family: "Material Icons";
+  position: absolute;
+  top: 280px;
+  right: 5px;
+}
+
+.swiper-button-prev::after {
+  content: "\f1e6";
+  font-family: "Material Icons";
+  position: absolute;
+  top: 280px;
+  left: 5px;
+}
+
+.textsub {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.l-epadding {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media (min-width: 768px) {
+  .l-epadding {
+    padding-left: 39px;
+    padding-right: 39px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .l-epadding {
+    padding-left: 85px;
+    padding-right: 85px;
+  }
+}
+
+.textfunct {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 200;
+}
+
+.iconsns-s {
+  height: 24px;
+  width: 24px;
+}
+
+.logo {
+  height: 31px;
+  width: 96px;
+}
+
+@media (min-width: 768px) {
+  .ms-ipad-pc {
+    margin-left: 178px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .ms-ipad-pc {
+    margin-left: 388px;
+  }
+}
+
+.radius-own {
+  border-radius: 1rem;
 }
 
 .swiper-container {

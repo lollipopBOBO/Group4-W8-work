@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
     <link rel="stylesheet" href="./assets/style/bootstrap.css">
     <!-- Swiper -->
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
     <!-- Google icon -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="./assets/style/all.css">
@@ -17,39 +17,47 @@
 
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+      <div class="container py-4">
+    
+        <div class="flex-grow-1"> <a class="navbar-brand" href="#"><img class="logo" src="https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/DOYOGA-logo.png?raw=true" alt="logo"></a></div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link link-dark me-7 "  href="#">立即預約</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link link-dark  me-7" href="#">聯絡我們</a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li class="nav-item">
+              <a class="nav-link link-dark" href="#">當月課表</a>
+              
+              <!--<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item" href="#">Action</a></li>
                 <li><a class="dropdown-item" href="#">Another action</a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
+                <li><a class="dropdown-item" href="#">Something else here</a></li> 
+              </ul>-->
+            </li>
+      
+          </ul>
+           <ul class="list-unstyled mb-0 d-flex ">
+            <li class="nav-item">
+              <a class="nav-link link-secondary btn border border-secondary  radius-own me-3 " href="#" tabindex="-1" aria-disabled="true">立即預約</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              <a class="nav-link link-secondary  btn border border-secondary radius-own" href="#" tabindex="-1" aria-disabled="true">聯絡我們</a>
             </li>
-          </ul>
-          <form class="d-flex">
+           </ul>
+            <!--<form class="d-flex">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
+          </form>-->
         </div>
+      
       </div>
     </nav>
 
@@ -299,103 +307,108 @@
 
 
 <!-- 聽聽他們怎麼說 -->
-<div class="customer-response py-7">
-  <div class="container">
-    <h3 class="h4 text-secondary text-center mt-7 mb-5 mt-md-8 mb-md-5">聽聽他們怎麼說</h3>
-    <div class="row">
-     <!-- card1 -->
-      <div class="col-12 col-md-6 col-lg-4 ">
-        <div class="card rounded-4 flex-row px-3 mb-2">
-          <div class="py-6 ">
-            <img class="img-fluid w-60" src="./assets/images/customer/user-1.png" alt="Joanne" >
-          </div>
-          <div class="card-body ">
-             <h4 class="fs-7  text-secondary" >Joanne <span class="fs-8 ms-2">Oct 17 2020</span></h4>
-             <p class="m-0 text-primary"><span class="material-icons  ">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span>
-             </p>
-             <p class="m-0 text-secondary">服務很好、設備優良！</p>
-          </div>
-        </div>
-      </div>
-      <!-- card2 -->
-      <div class="col-12 col-md-6 col-lg-4 ">   
-        <div class="card rounded-4 flex-row px-3 mb-2">
-          <div class="py-6 ">
-            <img class="img-fluid w-60" src="./assets/images/customer/user-2.png" alt="穎旻" >
-          </div>
-          <div class="card-body ">
-             <h4 class="fs-7  text-secondary" >穎旻 <span class="fs-8 ms-2">Oct 17 2020</span></h4>
-             <p class="m-0 text-primary"><span class="material-icons  ">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span>
-             </p>
-             <p class="m-0 text-secondary">上課後身體健康很多</p>
-          </div>
-        </div>
-      </div>
-      <!-- card3 -->
-      <div class="col-12 col-md-6 col-lg-4 ">   
-        <div class="card rounded-4 flex-row px-3 mb-2">
-          <div class="py-6 ">
-            <img class="img-fluid w-60" src="./assets/images/customer/user-3.png" alt="子琪" >
-          </div>
-          <div class="card-body ">
-             <h4 class="fs-7  text-secondary" >子琪 <span class="fs-8 ms-2">Oct 17 2020</span></h4>
-             <p class="m-0 text-primary"><span class="material-icons  ">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span>
-             </p>
-             <p class="m-0 text-secondary">上課很有趣！</p>
-          </div>
-        </div>
-      </div>
-        <!-- card4 -->
-      <div class="col-12 col-md-6 col-lg-4 ">
-             <div class="card rounded-4 flex-row px-3 mb-2">
-              <div class="py-6 ">
-                <img class="img-fluid w-60" src="./assets/images/customer/user-4.png" alt="葉子" >
-              </div>
-              <div class="card-body ">
-                 <h4 class="fs-7  text-secondary" >葉子<span class="fs-8 ms-2">Oct 17 2020</span></h4>
-                 <p class="m-0 text-primary"><span class="material-icons  ">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span>
-                 </p>
-                 <p class="m-0 text-secondary">老師的教學很專業</p>
+<div class="customer-response  bg-light pt-7  pt-md-8 pb-md-11">
+  <div class="container position-relative ">
+    <h3 class="h4 text-secondary text-center mb-5  mb-md-5">聽聽他們怎麼說</h3>
+     <!-- Swiper -->
+    <div class="swiper customer-responses-swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <!-- card1 -->
+              <div class="card h-100 rounded-4 flex-row px-3 mb-2">
+                <div class="py-6 ">
+                  <img class="img-fluid w-60" src="./assets/images/customer/user-1.png" alt="Joanne" >
+                </div>
+                <div class="card-body ">
+                   <h4 class="fs-7  text-secondary" >Joanne <span class="fs-8 ms-2">Oct 17 2020</span></h4>
+                   <p class="m-0 text-primary"><span class="material-icons  ">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span>
+                   </p>
+                   <p class="m-0 text-secondary">服務很好、設備優良！</p>
+                </div>
               </div>
             </div>
-      </div>
-       <!-- card5 -->
-       <div class="col-12 col-md-6 col-lg-4 ">
-        <div class="card rounded-4 flex-row px-3 mb-2">
-         <div class="py-6 ">
-           <img class="img-fluid w-60" src="./assets/images/customer/user-5.png" alt="Ray" >
-         </div>
-         <div class="card-body ">
-            <h4 class="fs-7  text-secondary" >Ray<span class="fs-8 ms-2">Oct 17 2020</span></h4>
-            <p class="m-0 text-primary"><span class="material-icons  ">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span>
-            </p>
-            <p class="m-0 text-secondary">很舒壓</p>
-         </div>
-       </div>
-       </div>
-        <!-- card6 -->
-        <div class="col-12 col-md-6 col-lg-4 ">
-          <div class="card rounded-4 flex-row px-3 mb-2  ">
-           <div class="py-6 ">
-             <img class="img-fluid w-60" src="./assets/images/customer/user-6.png" alt="俊儀" >
-           </div>
-           <div class="card-body ">
-              <h4 class="fs-7  text-secondary" >俊儀<span class="fs-8 ms-2">Oct 17 2020</span></h4>
-              <p class="m-0 text-primary"><span class="material-icons  ">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span>
-              </p>
-              <p class="m-0 text-secondary">讚的！</p>
-           </div>
-         </div>
-         </div>
-
-      
+            <div class="swiper-slide">
+              <!-- card2 -->
+              <div class="card h-100  rounded-4 flex-row px-3 mb-2">
+                <div class="py-6 ">
+                  <img class="img-fluid w-60" src="./assets/images/customer/user-2.png" alt="穎旻" >
+                </div>
+                <div class="card-body ">
+                   <h4 class="fs-7  text-secondary" >穎旻 <span class="fs-8 ms-2">Oct 17 2020</span></h4>
+                   <p class="m-0 text-primary"><span class="material-icons  ">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span>
+                   </p>
+                   <p class="m-0 text-secondary">上課後身體健康很多</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <!-- card3 -->
+              <div class="card h-100  rounded-4 flex-row px-3 mb-2">
+                <div class="py-6 ">
+                  <img class="img-fluid w-60" src="./assets/images/customer/user-3.png" alt="子琪" >
+                </div>
+                <div class="card-body ">
+                   <h4 class="fs-7  text-secondary" >子琪 <span class="fs-8 ms-2">Oct 17 2020</span></h4>
+                   <p class="m-0 text-primary"><span class="material-icons  ">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span>
+                   </p>
+                   <p class="m-0 text-secondary">上課很有趣！</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <!-- card4 -->
+              <div class="card h-100  rounded-4 flex-row px-3 mb-2">
+                <div class="py-6 ">
+                  <img class="img-fluid w-60" src="./assets/images/customer/user-4.png" alt="葉子" >
+                </div>
+                <div class="card-body ">
+                   <h4 class="fs-7  text-secondary" >葉子<span class="fs-8 ms-2">Oct 17 2020</span></h4>
+                   <p class="m-0 text-primary"><span class="material-icons  ">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span>
+                   </p>
+                   <p class="m-0 text-secondary">老師的教學很專業</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <!-- card5 -->
+              <div class="card h-100  rounded-4 flex-row px-3 mb-2">
+                <div class="py-6 ">
+                  <img class="img-fluid w-60" src="./assets/images/customer/user-5.png" alt="Ray" >
+                </div>
+                <div class="card-body ">
+                   <h4 class="fs-7  text-secondary" >Ray<span class="fs-8 ms-2">Oct 17 2020</span></h4>
+                   <p class="m-0 text-primary"><span class="material-icons  ">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span>
+                   </p>
+                   <p class="m-0 text-secondary">很舒壓</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <!-- card6 -->
+              <div class="card h-100  rounded-4 flex-row px-3 mb-2  ">
+                <div class="py-6 ">
+                  <img class="img-fluid w-60" src="./assets/images/customer/user-6.png" alt="俊儀" >
+                </div>
+                <div class="card-body ">
+                   <h4 class="fs-7  text-secondary" >俊儀<span class="fs-8 ms-2">Oct 17 2020</span></h4>
+                   <p class="m-0 text-primary"><span class="material-icons  ">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span><span class="material-icons">star</span>
+                   </p>
+                   <p class="m-0 text-secondary">讚的！</p>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        
     </div>
-    
-
-
-
-  </div>
+    <div class="swiper-button-next text-secondary d-md-none"></div>
+    <div class="swiper-button-prev text-secondary d-md-none"></div>
+    <div class="swiper-pagination d-none"></div>
+   
+   
+  </div> 
 </div>
+<!-- 聽聽他們怎麼說 end -->
 
 
 
@@ -404,86 +417,38 @@
 
 
 
-
-<!-- <div class="container">
-  <h1 class="index__h1">這是一段話</h1>
-  <div class="alert alert-primary" role="alert">
-    A simple primary alert—check it out!
-  </div>
-  <div class="alert alert-secondary" role="alert">
-    A simple secondary alert—check it out!
-  </div>
-  <div class="alert alert-success" role="alert">
-    A simple success alert—check it out!
-  </div>
-  <div class="alert alert-danger" role="alert">
-    A simple danger alert—check it out!
-  </div>
-  <div class="alert alert-warning" role="alert">
-    A simple warning alert—check it out!
-  </div>
-  <div class="alert alert-info" role="alert">
-    A simple info alert—check it out!
-  </div>
-  <div class="alert alert-light" role="alert">
-    A simple light alert—check it out!
-  </div>
-  <div class="alert alert-dark" role="alert">
-    A simple dark alert—check it out!
-  </div>
-</div> -->
-
-<!-- Button trigger modal -->
-<!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Launch demo modal
-</button> -->
-
-<!-- Modal -->
-<!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div> -->
 
 
     <footer class="footer bg-secondary">
-      <div>
-        <ul class="pb-5 list-unstyled border-bottom flex ">
-          <li class="">現在訂閱，獲得課程優惠碼！</li>
+      <div class="border-bottom">
+        <ul class=" list-unstyled d-flex flex-column flex-md-column flex-lg-row justify-content-lg-between l-epadding mb-5 pt-5">
+          <li class="textsub mb-2">現在訂閱，獲得課程優惠碼！</li>
           <li> <form>
-            <div class="contact">
+            <div class="d-flex items-stretch w-100 ">
               <label for="email"></label>
-              <input type="email" name="email" placeholder="輸入您的電子信箱" class="pl-3 rounded-tl rounded-bl flex-grow md:flex-grow-0">
-              <a href="#" class="btn bg-primary text-white rounded-tl-none rounded-bl-none px-12">訂閱</a>
+              <input type="email" name="email" placeholder="輸入您的電子信箱" class=" rounded-tl rounded-bl pt-2 pb-2 border-0 flex-grow text-secondary pl-3">
+              <a href="#" class="btn bg-primary text-white rounded-tl-none rounded-bl-none pt-2 pb-2 ">訂閱</a>
                </div>
           </form></li>
         </ul>
         </div>  
-        <div>
-          <ul>
-            <li></li>
-            <li></li>
+        <div class="l-epadding mt-5 ">
+          <ul class="list-unstyled  d-flex justify-content-between mb-2">
+            <li><a class="" href="#"><img class="logo"src="https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/DOYOGA.png?raw=true"></a></li>
+            <li> <ul class=" list-unstyled d-flex justify-content-between ">
+              <li><a class="" href="#"><img class="iconsns-s me-2 "src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/icon-fb.svg"></a></li>
+              <li><a class="" href="#"><img class="iconsns-s me-2"src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/icon-ig.svg"></a></li>
+              <li><a class="" href="#"><img class="iconsns-s"src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/icon-line.svg"></a></li>
+            </li>
         </div>       
-        <div>
-          <ul>
-          <li></li>
-          <li></li>
+        <div class="l-epadding">
+          <ul class=" list-unstyled mb-0">
+          <li class="mb-2"><a href="#" class="textfunct">課程介紹</a></li>
+          <li class="mb-2"><a href="#" class="textfunct">瑜珈空間</a></li>
           <li>
-            <ul>
-              <li></li>
-              <li></li>
+            <ul class=" list-unstyled pb-7 d-flex flex-column flex-md-row">
+              <li class="mb-2"><a href="#" class="textfunct">當月課表</a></li>
+              <li class=><a href="#" class="textfunct ms-ipad-pc">© 2021. All Rights Reserved.</a></li>
             </ul>
           </li>
           </ul>
@@ -492,7 +457,7 @@
 
     <script src="./assets/js/vendors.js"></script>
     <!-- Swiper -->
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="./assets/js/all.js"></script>
   </body>
 
