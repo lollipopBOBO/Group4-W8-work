@@ -166,15 +166,16 @@
 
 //舒適空間 end
 
-// multi-lessons
-
-.multi-lessons {
+// course
+.course {
+  @include media-breakpoint-down(lg) {
+    padding: map-get($spacers, 10) 0;
+  }
   @include media-breakpoint-down(md) {
     padding: map-get($spacers, 9) 0;
   }
 }
-
-// multi-lessons end
+// course end
 
 
 //方案選擇 起點~~~
