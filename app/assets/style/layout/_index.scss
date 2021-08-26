@@ -155,7 +155,7 @@
 
 // 頂尖師資 終點~~~
 
-//舒適空間 起點~~~
+//舒適空間 
 
 .nice-space-text {
   @include media-breakpoint-up(lg) {
@@ -164,7 +164,7 @@
 }
 
 
-//舒適空間 終點~~~
+//舒適空間 end
 
 // multi-lessons
 
@@ -185,11 +185,33 @@
 }
 
 
-// 聽聽他們怎麼說 起點~~~
-
+// 聽聽他們怎麼說 
 .customer-response {
+  padding-bottom: 96px;
   .card {
     display: flex;
   }
 }
 
+.swiper-button-next{
+  &::after{
+    content: "\f1df";
+    font-family: "Material Icons";
+    position: absolute;
+    top: 280px;
+    right: 5px; 
+  }
+}
+
+
+.swiper-button-prev{
+  &::after{
+    content: "\f1e6";
+    font-family: "Material Icons";
+    position: absolute;
+    top: 280px;
+    left: 5px;
+  }
+}
+
+// 聽聽他們怎麼說 end
