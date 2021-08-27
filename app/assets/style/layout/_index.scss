@@ -1,18 +1,17 @@
 //------banner---------
-.banner{
+.banner {
   background-image: url(../images/hero/Banner.jpeg);
   height: 560px;
   background-size: cover;
   background-position: bottom center;
   background-repeat: no-repeat;
-  h2{
+  h2 {
     margin-top: 10px;
   }
-  @include media-breakpoint-up(md){
+  @include media-breakpoint-up(md) {
     height: 582px;
   }
 }
-
 
 // .index__h1 {
 //   color:#00cc99;
@@ -20,61 +19,61 @@
 //   font-weight: 400;
 // }
 //感受身心 起點
-.impact1{
+.impact1 {
   background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/photo-1593810450967-f9c42742e326.jpeg?raw=true);
   height: 420px;
   width: 345px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  @include pad{
+  @include pad {
     height: 252px;
     width: 210px;
   }
-  @include pc{
+  @include pc {
     height: 420px;
-  width: 350px;
+    width: 350px;
   }
 }
 
-.impact2{
+.impact2 {
   background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/photo-1593810451137-5dc55105dace.jpeg?raw=true);
   height: 420px;
   width: 345px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  @include pad{
+  @include pad {
     height: 252px;
     width: 210px;
   }
-  @include pc{
+  @include pc {
     height: 420px;
     width: 350px;
   }
 }
 
-.impact3{
+.impact3 {
   background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/photo-1599901860904-17e6ed7083a0.jpeg?raw=true);
   height: 420px;
   width: 345px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  @include pad{
+  @include pad {
     height: 252px;
     width: 210px;
   }
-  @include pc{
+  @include pc {
     height: 420px;
     width: 350px;
   }
 }
-.titleimpact{
+.titleimpact {
   color: #fff;
   font-weight: normal;
 }
-.textimpact{
+.textimpact {
   color: #fff;
   font-size: $font-size-base;
   font-weight: normal;
@@ -215,14 +214,13 @@
 
 // 頂尖師資 終點~~~
 
-//舒適空間 
+//舒適空間
 
 .nice-space-text {
   @include media-breakpoint-up(lg) {
     padding: 145px 0px !important;
   }
 }
-
 
 //舒適空間 end
 
@@ -237,16 +235,24 @@
 }
 // course end
 
-
 //方案選擇 起點~~~
 .plan-choose-img {
   .img-fluid {
     object-fit: cover;
   }
+  .radius-top {
+    border-radius: 16px 16px 0 0;
+    @include pad {
+      border-radius: 16px 0 0 16px;
+    }
+    @include pc {
+      border-radius: 16px 16px 0 0;
+    }
+  }
 }
+//方案選擇 end
 
-
-// 聽聽他們怎麼說 
+// 聽聽他們怎麼說
 .customer-response {
   padding-bottom: 96px;
   .card {
@@ -254,19 +260,18 @@
   }
 }
 
-.swiper-button-next{
-  &::after{
+.swiper-button-next {
+  &::after {
     content: "\f1df";
     font-family: "Material Icons";
     position: absolute;
     top: 280px;
-    right: 5px; 
+    right: 5px;
   }
 }
 
-
-.swiper-button-prev{
-  &::after{
+.swiper-button-prev {
+  &::after {
     content: "\f1e6";
     font-family: "Material Icons";
     position: absolute;
