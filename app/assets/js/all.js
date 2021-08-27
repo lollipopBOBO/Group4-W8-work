@@ -2,19 +2,27 @@ $(function() {
   console.log('Hello Bootstrap5');
 });
 
-
- const swiper = new Swiper('.multi-lessons-swiper', {
-   slidesPerView: "auto",
-   spaceBetween: 30,
-   pagination: {
-     el: ".swiper-pagination",
-     clickable: true,
-   },
- }); 
-
-
-
-
+//課程多元 swiper
+const courseSwiper = new Swiper(".course-swiper", {
+  slidesPerColumnFill: 'row',
+  slidesPerView: 2,
+  grid: {
+      rows: 2,
+      fill: 'row'
+    },
+  slidesPerColumn: 2,
+  spaceBetween: 30,
+  breakpoints: {
+    992: {
+      grid: {
+        rows: 1,
+        fill: 'row'
+      },
+      slidesPerView: 1.5,
+      slidesPerColumn: 1
+    }
+  }
+});
 
 //  聽聽他們怎麼說 swiper
  const responseSwiper = document.querySelector('.customer-responses-swiper');
