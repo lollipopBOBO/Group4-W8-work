@@ -23,7 +23,7 @@
 .impact1{
   background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/photo-1593810450967-f9c42742e326.jpeg?raw=true);
   height: 420px;
-  width: 350px;
+  width: 345px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -40,7 +40,7 @@
 .impact2{
   background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/photo-1593810451137-5dc55105dace.jpeg?raw=true);
   height: 420px;
-  width: 350px;
+  width: 345px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -57,7 +57,7 @@
 .impact3{
   background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/photo-1599901860904-17e6ed7083a0.jpeg?raw=true);
   height: 420px;
-  width: 350px;
+  width: 345px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -72,10 +72,12 @@
 }
 .titleimpact{
   color: #fff;
+  font-weight: normal;
 }
 .textimpact{
   color: #fff;
-  font-size: $font-size-base;;
+  font-size: $font-size-base;
+  font-weight: normal;
 }
 //感受身心 終點
 // 頂尖師資 起點~~~
