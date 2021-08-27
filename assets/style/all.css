@@ -20633,6 +20633,86 @@ fieldset:disabled .btn {
   }
 }
 
+.impact1 {
+  background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/photo-1593810450967-f9c42742e326.jpeg?raw=true);
+  height: 420px;
+  width: 345px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 768px) {
+  .impact1 {
+    height: 252px;
+    width: 210px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .impact1 {
+    height: 420px;
+    width: 350px;
+  }
+}
+
+.impact2 {
+  background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/photo-1593810451137-5dc55105dace.jpeg?raw=true);
+  height: 420px;
+  width: 345px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 768px) {
+  .impact2 {
+    height: 252px;
+    width: 210px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .impact2 {
+    height: 420px;
+    width: 350px;
+  }
+}
+
+.impact3 {
+  background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/photo-1599901860904-17e6ed7083a0.jpeg?raw=true);
+  height: 420px;
+  width: 345px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 768px) {
+  .impact3 {
+    height: 252px;
+    width: 210px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .impact3 {
+    height: 420px;
+    width: 350px;
+  }
+}
+
+.titleimpact {
+  color: #fff;
+  font-weight: normal;
+}
+
+.textimpact {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
 .top-teachers {
   padding: 32px 0 32px 0;
 }
@@ -20822,8 +20902,14 @@ fieldset:disabled .btn {
   }
 }
 
+@media (max-width: 991.98px) {
+  .course {
+    padding: 3.5rem 0;
+  }
+}
+
 @media (max-width: 767.98px) {
-  .multi-lessons {
+  .course {
     padding: 3rem 0;
   }
 }
@@ -20831,6 +20917,22 @@ fieldset:disabled .btn {
 .plan-choose-img .img-fluid {
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.plan-choose-img .radius-top {
+  border-radius: 16px 16px 0 0;
+}
+
+@media (min-width: 768px) {
+  .plan-choose-img .radius-top {
+    border-radius: 16px 0 0 16px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .plan-choose-img .radius-top {
+    border-radius: 16px 16px 0 0;
+  }
 }
 
 .customer-response {
@@ -20887,7 +20989,7 @@ fieldset:disabled .btn {
 .textfunct {
   color: #fff;
   font-size: 1rem;
-  font-weight: 200;
+  font-weight: lighter;
 }
 
 .iconsns-s {
@@ -20914,22 +21016,6 @@ fieldset:disabled .btn {
 
 .radius-own {
   border-radius: 1rem;
-}
-
-.swiper-container {
-  width: 100%;
-  height: 100%;
-}
-
-.multi-lessons-swiper .swiper-slide {
-  width: auto !important;
-}
-
-.multi-lessons-swiper .swiper-slide img {
-  width: 455px;
-  height: 455px;
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 
 /*# sourceMappingURL=all.css.map */
