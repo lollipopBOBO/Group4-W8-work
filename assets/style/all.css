@@ -20609,9 +20609,7 @@ fieldset:disabled .btn {
   }
 }
 
-*,
-*::before,
-*::after {
+body {
   font-family: 'Noto Sans TC', sans-serif;
 }
 
@@ -20634,12 +20632,9 @@ fieldset:disabled .btn {
 }
 
 .impact1 {
-  background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/photo-1593810450967-f9c42742e326.jpeg?raw=true);
+  border-radius: 1rem;
   height: 420px;
   width: 345px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 @media (min-width: 768px) {
@@ -20651,52 +20646,6 @@ fieldset:disabled .btn {
 
 @media (min-width: 1200px) {
   .impact1 {
-    height: 420px;
-    width: 350px;
-  }
-}
-
-.impact2 {
-  background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/photo-1593810451137-5dc55105dace.jpeg?raw=true);
-  height: 420px;
-  width: 345px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-@media (min-width: 768px) {
-  .impact2 {
-    height: 252px;
-    width: 210px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .impact2 {
-    height: 420px;
-    width: 350px;
-  }
-}
-
-.impact3 {
-  background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/photo-1599901860904-17e6ed7083a0.jpeg?raw=true);
-  height: 420px;
-  width: 345px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-@media (min-width: 768px) {
-  .impact3 {
-    height: 252px;
-    width: 210px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .impact3 {
     height: 420px;
     width: 350px;
   }
@@ -20704,13 +20653,25 @@ fieldset:disabled .btn {
 
 .titleimpact {
   color: #fff;
-  font-weight: normal;
+  font-weight: 200;
+}
+
+@media (min-width: 768px) {
+  .titleimpact {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .titleimpact {
+    font-size: 20px;
+  }
 }
 
 .textimpact {
   color: #fff;
   font-size: 1rem;
-  font-weight: normal;
+  font-weight: 200;
 }
 
 .top-teachers {
@@ -21016,6 +20977,12 @@ fieldset:disabled .btn {
 
 .radius-own {
   border-radius: 1rem;
+}
+
+.sideicon {
+  position: fixed;
+  right: 16px;
+  bottom: 600px;
 }
 
 /*# sourceMappingURL=all.css.map */

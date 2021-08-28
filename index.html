@@ -13,14 +13,9 @@
     <!-- Google icon -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="./assets/style/all.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     
-    <div class="sideicon">
-      <ul class="list-unstyled">
-        <li><a href="#"><i class="fab fa-facebook"></i></a></a> </li>
-        <li></li>
-        <li></li>
-      </ul>
-    </div>
   </head>
 
   <body>
@@ -68,6 +63,14 @@
       
       </div>
     </nav>
+    <div class="sideicon  d-xs-none d-md-none d-lg-block">
+       <ul class="list-unstyled d-flex flex-column align-items-center">
+        <li class="mb-2"><a href="#"><i class="fab fa-facebook  fa-3x"></i></a> </li>
+        <li class="mb-2"><a href="#"><i class="fab fa-instagram  fa-3x"></i></a></li>
+        <li class="mb-2"><a href="#"><i class="fab fa-line fa-3x"></i></a></li>
+        
+      </ul>
+    </div>
 
     
 <!-- --Banner-- -->
@@ -90,26 +93,29 @@
 <div class="container">
   <h2 class="h4 text-secondary text-center mb-1 mt-8 ">感受身心，活在當下</h2>
   <p class="fs-6 text-primary text-center  mb-5 mb-lg-7 ">DOYOGA 可以帶給你...</p>
-  <div class="row   mb-lg-11 mb-md-9 mb-11">
-    <div class="col-12 col-md-4 col-lg-4 impact1 rounded-4 d-flex align-items-end">
-      <div class=>
-        <h4 class="h6 titleimpact">整體健身</h4>
-        <p class="textimpact">每一個動作，都融入運動解剖學的的觀點強調以身體的中心線為出發點。</p>
+  <div class="row mb-lg-11 mb-md-9 mb-11 ">
+      <div class="card text-white col-12 col-md-4 border-0 ">
+        <img  class="impact1 object-fit-cover card-img"src="https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/photo-1593810450967-f9c42742e326.jpeg?raw=true"  alt="整體健身">
+        <div class="card-img-overlay d-flex flex-column justify-content-end ">
+          <h5 class="card-title titleimpact">整體健身</h5>
+          <p class="card-text textimpact ">每一個動作，都融入運動解剖學的的觀點強調以身體的中心線為出發點。</p>
+          
+        </div>
+      </div><div class="card text-white col-12 col-md-4 border-0">
+        <img class=" object-fit-cover impact1 card-img" src="https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/photo-1593810451137-5dc55105dace.jpeg?raw=true"  alt="減壓放鬆">
+        <div class="card-img-overlay d-flex flex-column justify-content-end  ">
+          <h5 class="card-title titleimpact">減壓放鬆</h5>
+          <p class="card-text textimpact ">調節全身系統、改善血液循環、減壓養心、釋放身心，達到修心養性的目的。</p>
+        </div>
+      </div><div class="card text-white col-12 col-md-4 border-0 ">
+        <img  class=" object-fit-cover impact1 card-img" src="https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/photo-1599901860904-17e6ed7083a0.jpeg?raw=true"alt="局部雕塑">
+        <div class="card-img-overlay d-flex flex-column justify-content-end  ">
+          <h5 class="card-title titleimpact">局部雕塑</h5>
+          <p class="card-text textimpact">幫助強化背部與腹部的核心肌群，增進我們身體穩定度以及保持良好體態。</p>
+        </div>
       </div>
-    </div>
-    <div class="col-12 col-md-4 col-lg-4 impact2 rounded-4 d-flex align-items-end">
-      <div class>
-        <h4 class="h6 titleimpact">減壓放鬆</h4>
-        <p class="textimpact">調節全身系統、改善血液循環、減壓養心、釋放身心，達到修心養性的目的。</p>
-      </div>
-    </div>
-    <div class="col-12 col-md-4 col-lg-4 impact3 rounded-4 d-flex align-items-end">
-      <div>
-        <h4 class="h6 titleimpact">局部雕塑</h4>
-        <p class="textimpact">幫助強化背部與腹部的核心肌群，增進我們身體穩定度以及保持良好體態。</p>
-      </div>
-    </div>
-  </div>
+    
+    
 </div>
 
 <!-- 頂尖師資 -->
@@ -466,11 +472,11 @@
         <ul class=" list-unstyled d-flex flex-column flex-md-column flex-lg-row justify-content-lg-between l-epadding mb-5 pt-5">
           <li class="textsub mb-2">現在訂閱，獲得課程優惠碼！</li>
           <li> <form>
-            <div class="d-flex items-stretch w-100 ">
+            <div class="input-group mb-3  ">
               <label for="email"></label>
-              <input type="email" name="email" placeholder="輸入您的電子信箱" class=" rounded-tl rounded-bl pt-2 pb-2 border-0 flex-grow text-secondary pl-3">
-              <a href="#" class="btn bg-primary text-white rounded-tl-none rounded-bl-none pt-2 pb-2 ">訂閱</a>
-               </div>
+              <input type="email" name="email" class="form-control rounded-start" placeholder ="輸入您的電子信箱" aria-label="email" aria-describedby="basic-addon2">
+              <a href="#" class="btn bg-primary text-white"> 訂閱</a>
+            </div>
           </form></li>
         </ul>
         </div>  
