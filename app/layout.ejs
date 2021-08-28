@@ -13,14 +13,9 @@
     <!-- Google icon -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="./assets/style/all.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     
-    <div class="sideicon">
-      <ul class="list-unstyled">
-        <li><a href="#"><i class="fab fa-facebook"></i></a></a> </li>
-        <li></li>
-        <li></li>
-      </ul>
-    </div>
   </head>
 
   <body>
@@ -68,6 +63,13 @@
       
       </div>
     </nav>
+    <div class="sideicon">
+       <ul class="list-unstyled">
+        <li><a href="#"><i class="fab fa-facebook  fa-3x"></i></a> </li>
+        <li><a href="#"><i class="fab fa-instagram-square  fa-3x"></i></a></li>
+        <li><a href="#"><i class="fab fa-instagram-square  fa-3x"></i></a></li>
+      </ul>
+    </div>
 
     <%- contents %>
 
@@ -76,11 +78,11 @@
         <ul class=" list-unstyled d-flex flex-column flex-md-column flex-lg-row justify-content-lg-between l-epadding mb-5 pt-5">
           <li class="textsub mb-2">現在訂閱，獲得課程優惠碼！</li>
           <li> <form>
-            <div class="d-flex items-stretch w-100 ">
+            <div class="input-group mb-3 ">
               <label for="email"></label>
-              <input type="email" name="email" placeholder="輸入您的電子信箱" class=" rounded-tl rounded-bl pt-2 pb-2 border-0 flex-grow text-secondary pl-3">
-              <a href="#" class="btn bg-primary text-white rounded-tl-none rounded-bl-none pt-2 pb-2 ">訂閱</a>
-               </div>
+              <input type="email" name="email" class="form-control" placeholder ="輸入您的電子信箱" aria-label="email" aria-describedby="basic-addon2">
+              <a href="#" class="btn bg-primary text-white"> 訂閱</a>
+            </div>
           </form></li>
         </ul>
         </div>  
