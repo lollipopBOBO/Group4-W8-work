@@ -949,6 +949,16 @@ progress {
   --bs-gutter-y: 4rem;
 }
 
+.g-12,
+.gx-12 {
+  --bs-gutter-x: 1.875rem;
+}
+
+.g-12,
+.gy-12 {
+  --bs-gutter-y: 1.875rem;
+}
+
 @media (min-width: 576px) {
   .col-sm {
     -webkit-box-flex: 1;
@@ -1206,6 +1216,14 @@ progress {
   .g-sm-11,
   .gy-sm-11 {
     --bs-gutter-y: 4rem;
+  }
+  .g-sm-12,
+  .gx-sm-12 {
+    --bs-gutter-x: 1.875rem;
+  }
+  .g-sm-12,
+  .gy-sm-12 {
+    --bs-gutter-y: 1.875rem;
   }
 }
 
@@ -1467,6 +1485,14 @@ progress {
   .gy-md-11 {
     --bs-gutter-y: 4rem;
   }
+  .g-md-12,
+  .gx-md-12 {
+    --bs-gutter-x: 1.875rem;
+  }
+  .g-md-12,
+  .gy-md-12 {
+    --bs-gutter-y: 1.875rem;
+  }
 }
 
 @media (min-width: 992px) {
@@ -1726,6 +1752,14 @@ progress {
   .g-lg-11,
   .gy-lg-11 {
     --bs-gutter-y: 4rem;
+  }
+  .g-lg-12,
+  .gx-lg-12 {
+    --bs-gutter-x: 1.875rem;
+  }
+  .g-lg-12,
+  .gy-lg-12 {
+    --bs-gutter-y: 1.875rem;
   }
 }
 
@@ -1987,6 +2021,14 @@ progress {
   .gy-xl-11 {
     --bs-gutter-y: 4rem;
   }
+  .g-xl-12,
+  .gx-xl-12 {
+    --bs-gutter-x: 1.875rem;
+  }
+  .g-xl-12,
+  .gy-xl-12 {
+    --bs-gutter-y: 1.875rem;
+  }
 }
 
 @media (min-width: 1400px) {
@@ -2246,6 +2288,14 @@ progress {
   .g-xxl-11,
   .gy-xxl-11 {
     --bs-gutter-y: 4rem;
+  }
+  .g-xxl-12,
+  .gx-xxl-12 {
+    --bs-gutter-x: 1.875rem;
+  }
+  .g-xxl-12,
+  .gy-xxl-12 {
+    --bs-gutter-y: 1.875rem;
   }
 }
 
@@ -8418,6 +8468,10 @@ fieldset:disabled .btn {
   gap: 4rem !important;
 }
 
+.gap-12 {
+  gap: 1.875rem !important;
+}
+
 .justify-content-start {
   -webkit-box-pack: start !important;
       -ms-flex-pack: start !important;
@@ -8639,6 +8693,10 @@ fieldset:disabled .btn {
   margin: 4rem !important;
 }
 
+.m-12 {
+  margin: 1.875rem !important;
+}
+
 .m-auto {
   margin: auto !important;
 }
@@ -8701,6 +8759,11 @@ fieldset:disabled .btn {
 .mx-11 {
   margin-right: 4rem !important;
   margin-left: 4rem !important;
+}
+
+.mx-12 {
+  margin-right: 1.875rem !important;
+  margin-left: 1.875rem !important;
 }
 
 .mx-auto {
@@ -8768,6 +8831,11 @@ fieldset:disabled .btn {
   margin-bottom: 4rem !important;
 }
 
+.my-12 {
+  margin-top: 1.875rem !important;
+  margin-bottom: 1.875rem !important;
+}
+
 .my-auto {
   margin-top: auto !important;
   margin-bottom: auto !important;
@@ -8819,6 +8887,10 @@ fieldset:disabled .btn {
 
 .mt-11 {
   margin-top: 4rem !important;
+}
+
+.mt-12 {
+  margin-top: 1.875rem !important;
 }
 
 .mt-auto {
@@ -8873,6 +8945,10 @@ fieldset:disabled .btn {
   margin-right: 4rem !important;
 }
 
+.me-12 {
+  margin-right: 1.875rem !important;
+}
+
 .me-auto {
   margin-right: auto !important;
 }
@@ -8923,6 +8999,10 @@ fieldset:disabled .btn {
 
 .mb-11 {
   margin-bottom: 4rem !important;
+}
+
+.mb-12 {
+  margin-bottom: 1.875rem !important;
 }
 
 .mb-auto {
@@ -8977,6 +9057,10 @@ fieldset:disabled .btn {
   margin-left: 4rem !important;
 }
 
+.ms-12 {
+  margin-left: 1.875rem !important;
+}
+
 .ms-auto {
   margin-left: auto !important;
 }
@@ -9027,6 +9111,10 @@ fieldset:disabled .btn {
 
 .p-11 {
   padding: 4rem !important;
+}
+
+.p-12 {
+  padding: 1.875rem !important;
 }
 
 .px-0 {
@@ -9089,6 +9177,11 @@ fieldset:disabled .btn {
   padding-left: 4rem !important;
 }
 
+.px-12 {
+  padding-right: 1.875rem !important;
+  padding-left: 1.875rem !important;
+}
+
 .py-0 {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
@@ -9149,6 +9242,11 @@ fieldset:disabled .btn {
   padding-bottom: 4rem !important;
 }
 
+.py-12 {
+  padding-top: 1.875rem !important;
+  padding-bottom: 1.875rem !important;
+}
+
 .pt-0 {
   padding-top: 0 !important;
 }
@@ -9195,6 +9293,10 @@ fieldset:disabled .btn {
 
 .pt-11 {
   padding-top: 4rem !important;
+}
+
+.pt-12 {
+  padding-top: 1.875rem !important;
 }
 
 .pe-0 {
@@ -9245,6 +9347,10 @@ fieldset:disabled .btn {
   padding-right: 4rem !important;
 }
 
+.pe-12 {
+  padding-right: 1.875rem !important;
+}
+
 .pb-0 {
   padding-bottom: 0 !important;
 }
@@ -9293,6 +9399,10 @@ fieldset:disabled .btn {
   padding-bottom: 4rem !important;
 }
 
+.pb-12 {
+  padding-bottom: 1.875rem !important;
+}
+
 .ps-0 {
   padding-left: 0 !important;
 }
@@ -9339,6 +9449,10 @@ fieldset:disabled .btn {
 
 .ps-11 {
   padding-left: 4rem !important;
+}
+
+.ps-12 {
+  padding-left: 1.875rem !important;
 }
 
 .font-monospace {
@@ -9871,6 +9985,9 @@ fieldset:disabled .btn {
   .gap-sm-11 {
     gap: 4rem !important;
   }
+  .gap-sm-12 {
+    gap: 1.875rem !important;
+  }
   .justify-content-sm-start {
     -webkit-box-pack: start !important;
         -ms-flex-pack: start !important;
@@ -10049,6 +10166,9 @@ fieldset:disabled .btn {
   .m-sm-11 {
     margin: 4rem !important;
   }
+  .m-sm-12 {
+    margin: 1.875rem !important;
+  }
   .m-sm-auto {
     margin: auto !important;
   }
@@ -10099,6 +10219,10 @@ fieldset:disabled .btn {
   .mx-sm-11 {
     margin-right: 4rem !important;
     margin-left: 4rem !important;
+  }
+  .mx-sm-12 {
+    margin-right: 1.875rem !important;
+    margin-left: 1.875rem !important;
   }
   .mx-sm-auto {
     margin-right: auto !important;
@@ -10152,6 +10276,10 @@ fieldset:disabled .btn {
     margin-top: 4rem !important;
     margin-bottom: 4rem !important;
   }
+  .my-sm-12 {
+    margin-top: 1.875rem !important;
+    margin-bottom: 1.875rem !important;
+  }
   .my-sm-auto {
     margin-top: auto !important;
     margin-bottom: auto !important;
@@ -10192,6 +10320,9 @@ fieldset:disabled .btn {
   .mt-sm-11 {
     margin-top: 4rem !important;
   }
+  .mt-sm-12 {
+    margin-top: 1.875rem !important;
+  }
   .mt-sm-auto {
     margin-top: auto !important;
   }
@@ -10230,6 +10361,9 @@ fieldset:disabled .btn {
   }
   .me-sm-11 {
     margin-right: 4rem !important;
+  }
+  .me-sm-12 {
+    margin-right: 1.875rem !important;
   }
   .me-sm-auto {
     margin-right: auto !important;
@@ -10270,6 +10404,9 @@ fieldset:disabled .btn {
   .mb-sm-11 {
     margin-bottom: 4rem !important;
   }
+  .mb-sm-12 {
+    margin-bottom: 1.875rem !important;
+  }
   .mb-sm-auto {
     margin-bottom: auto !important;
   }
@@ -10309,6 +10446,9 @@ fieldset:disabled .btn {
   .ms-sm-11 {
     margin-left: 4rem !important;
   }
+  .ms-sm-12 {
+    margin-left: 1.875rem !important;
+  }
   .ms-sm-auto {
     margin-left: auto !important;
   }
@@ -10347,6 +10487,9 @@ fieldset:disabled .btn {
   }
   .p-sm-11 {
     padding: 4rem !important;
+  }
+  .p-sm-12 {
+    padding: 1.875rem !important;
   }
   .px-sm-0 {
     padding-right: 0 !important;
@@ -10396,6 +10539,10 @@ fieldset:disabled .btn {
     padding-right: 4rem !important;
     padding-left: 4rem !important;
   }
+  .px-sm-12 {
+    padding-right: 1.875rem !important;
+    padding-left: 1.875rem !important;
+  }
   .py-sm-0 {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
@@ -10444,6 +10591,10 @@ fieldset:disabled .btn {
     padding-top: 4rem !important;
     padding-bottom: 4rem !important;
   }
+  .py-sm-12 {
+    padding-top: 1.875rem !important;
+    padding-bottom: 1.875rem !important;
+  }
   .pt-sm-0 {
     padding-top: 0 !important;
   }
@@ -10479,6 +10630,9 @@ fieldset:disabled .btn {
   }
   .pt-sm-11 {
     padding-top: 4rem !important;
+  }
+  .pt-sm-12 {
+    padding-top: 1.875rem !important;
   }
   .pe-sm-0 {
     padding-right: 0 !important;
@@ -10516,6 +10670,9 @@ fieldset:disabled .btn {
   .pe-sm-11 {
     padding-right: 4rem !important;
   }
+  .pe-sm-12 {
+    padding-right: 1.875rem !important;
+  }
   .pb-sm-0 {
     padding-bottom: 0 !important;
   }
@@ -10552,6 +10709,9 @@ fieldset:disabled .btn {
   .pb-sm-11 {
     padding-bottom: 4rem !important;
   }
+  .pb-sm-12 {
+    padding-bottom: 1.875rem !important;
+  }
   .ps-sm-0 {
     padding-left: 0 !important;
   }
@@ -10587,6 +10747,9 @@ fieldset:disabled .btn {
   }
   .ps-sm-11 {
     padding-left: 4rem !important;
+  }
+  .ps-sm-12 {
+    padding-left: 1.875rem !important;
   }
   .text-sm-start {
     text-align: left !important;
@@ -10737,6 +10900,9 @@ fieldset:disabled .btn {
   }
   .gap-md-11 {
     gap: 4rem !important;
+  }
+  .gap-md-12 {
+    gap: 1.875rem !important;
   }
   .justify-content-md-start {
     -webkit-box-pack: start !important;
@@ -10916,6 +11082,9 @@ fieldset:disabled .btn {
   .m-md-11 {
     margin: 4rem !important;
   }
+  .m-md-12 {
+    margin: 1.875rem !important;
+  }
   .m-md-auto {
     margin: auto !important;
   }
@@ -10966,6 +11135,10 @@ fieldset:disabled .btn {
   .mx-md-11 {
     margin-right: 4rem !important;
     margin-left: 4rem !important;
+  }
+  .mx-md-12 {
+    margin-right: 1.875rem !important;
+    margin-left: 1.875rem !important;
   }
   .mx-md-auto {
     margin-right: auto !important;
@@ -11019,6 +11192,10 @@ fieldset:disabled .btn {
     margin-top: 4rem !important;
     margin-bottom: 4rem !important;
   }
+  .my-md-12 {
+    margin-top: 1.875rem !important;
+    margin-bottom: 1.875rem !important;
+  }
   .my-md-auto {
     margin-top: auto !important;
     margin-bottom: auto !important;
@@ -11059,6 +11236,9 @@ fieldset:disabled .btn {
   .mt-md-11 {
     margin-top: 4rem !important;
   }
+  .mt-md-12 {
+    margin-top: 1.875rem !important;
+  }
   .mt-md-auto {
     margin-top: auto !important;
   }
@@ -11097,6 +11277,9 @@ fieldset:disabled .btn {
   }
   .me-md-11 {
     margin-right: 4rem !important;
+  }
+  .me-md-12 {
+    margin-right: 1.875rem !important;
   }
   .me-md-auto {
     margin-right: auto !important;
@@ -11137,6 +11320,9 @@ fieldset:disabled .btn {
   .mb-md-11 {
     margin-bottom: 4rem !important;
   }
+  .mb-md-12 {
+    margin-bottom: 1.875rem !important;
+  }
   .mb-md-auto {
     margin-bottom: auto !important;
   }
@@ -11176,6 +11362,9 @@ fieldset:disabled .btn {
   .ms-md-11 {
     margin-left: 4rem !important;
   }
+  .ms-md-12 {
+    margin-left: 1.875rem !important;
+  }
   .ms-md-auto {
     margin-left: auto !important;
   }
@@ -11214,6 +11403,9 @@ fieldset:disabled .btn {
   }
   .p-md-11 {
     padding: 4rem !important;
+  }
+  .p-md-12 {
+    padding: 1.875rem !important;
   }
   .px-md-0 {
     padding-right: 0 !important;
@@ -11263,6 +11455,10 @@ fieldset:disabled .btn {
     padding-right: 4rem !important;
     padding-left: 4rem !important;
   }
+  .px-md-12 {
+    padding-right: 1.875rem !important;
+    padding-left: 1.875rem !important;
+  }
   .py-md-0 {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
@@ -11311,6 +11507,10 @@ fieldset:disabled .btn {
     padding-top: 4rem !important;
     padding-bottom: 4rem !important;
   }
+  .py-md-12 {
+    padding-top: 1.875rem !important;
+    padding-bottom: 1.875rem !important;
+  }
   .pt-md-0 {
     padding-top: 0 !important;
   }
@@ -11346,6 +11546,9 @@ fieldset:disabled .btn {
   }
   .pt-md-11 {
     padding-top: 4rem !important;
+  }
+  .pt-md-12 {
+    padding-top: 1.875rem !important;
   }
   .pe-md-0 {
     padding-right: 0 !important;
@@ -11383,6 +11586,9 @@ fieldset:disabled .btn {
   .pe-md-11 {
     padding-right: 4rem !important;
   }
+  .pe-md-12 {
+    padding-right: 1.875rem !important;
+  }
   .pb-md-0 {
     padding-bottom: 0 !important;
   }
@@ -11419,6 +11625,9 @@ fieldset:disabled .btn {
   .pb-md-11 {
     padding-bottom: 4rem !important;
   }
+  .pb-md-12 {
+    padding-bottom: 1.875rem !important;
+  }
   .ps-md-0 {
     padding-left: 0 !important;
   }
@@ -11454,6 +11663,9 @@ fieldset:disabled .btn {
   }
   .ps-md-11 {
     padding-left: 4rem !important;
+  }
+  .ps-md-12 {
+    padding-left: 1.875rem !important;
   }
   .text-md-start {
     text-align: left !important;
@@ -11604,6 +11816,9 @@ fieldset:disabled .btn {
   }
   .gap-lg-11 {
     gap: 4rem !important;
+  }
+  .gap-lg-12 {
+    gap: 1.875rem !important;
   }
   .justify-content-lg-start {
     -webkit-box-pack: start !important;
@@ -11783,6 +11998,9 @@ fieldset:disabled .btn {
   .m-lg-11 {
     margin: 4rem !important;
   }
+  .m-lg-12 {
+    margin: 1.875rem !important;
+  }
   .m-lg-auto {
     margin: auto !important;
   }
@@ -11833,6 +12051,10 @@ fieldset:disabled .btn {
   .mx-lg-11 {
     margin-right: 4rem !important;
     margin-left: 4rem !important;
+  }
+  .mx-lg-12 {
+    margin-right: 1.875rem !important;
+    margin-left: 1.875rem !important;
   }
   .mx-lg-auto {
     margin-right: auto !important;
@@ -11886,6 +12108,10 @@ fieldset:disabled .btn {
     margin-top: 4rem !important;
     margin-bottom: 4rem !important;
   }
+  .my-lg-12 {
+    margin-top: 1.875rem !important;
+    margin-bottom: 1.875rem !important;
+  }
   .my-lg-auto {
     margin-top: auto !important;
     margin-bottom: auto !important;
@@ -11926,6 +12152,9 @@ fieldset:disabled .btn {
   .mt-lg-11 {
     margin-top: 4rem !important;
   }
+  .mt-lg-12 {
+    margin-top: 1.875rem !important;
+  }
   .mt-lg-auto {
     margin-top: auto !important;
   }
@@ -11964,6 +12193,9 @@ fieldset:disabled .btn {
   }
   .me-lg-11 {
     margin-right: 4rem !important;
+  }
+  .me-lg-12 {
+    margin-right: 1.875rem !important;
   }
   .me-lg-auto {
     margin-right: auto !important;
@@ -12004,6 +12236,9 @@ fieldset:disabled .btn {
   .mb-lg-11 {
     margin-bottom: 4rem !important;
   }
+  .mb-lg-12 {
+    margin-bottom: 1.875rem !important;
+  }
   .mb-lg-auto {
     margin-bottom: auto !important;
   }
@@ -12043,6 +12278,9 @@ fieldset:disabled .btn {
   .ms-lg-11 {
     margin-left: 4rem !important;
   }
+  .ms-lg-12 {
+    margin-left: 1.875rem !important;
+  }
   .ms-lg-auto {
     margin-left: auto !important;
   }
@@ -12081,6 +12319,9 @@ fieldset:disabled .btn {
   }
   .p-lg-11 {
     padding: 4rem !important;
+  }
+  .p-lg-12 {
+    padding: 1.875rem !important;
   }
   .px-lg-0 {
     padding-right: 0 !important;
@@ -12130,6 +12371,10 @@ fieldset:disabled .btn {
     padding-right: 4rem !important;
     padding-left: 4rem !important;
   }
+  .px-lg-12 {
+    padding-right: 1.875rem !important;
+    padding-left: 1.875rem !important;
+  }
   .py-lg-0 {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
@@ -12178,6 +12423,10 @@ fieldset:disabled .btn {
     padding-top: 4rem !important;
     padding-bottom: 4rem !important;
   }
+  .py-lg-12 {
+    padding-top: 1.875rem !important;
+    padding-bottom: 1.875rem !important;
+  }
   .pt-lg-0 {
     padding-top: 0 !important;
   }
@@ -12213,6 +12462,9 @@ fieldset:disabled .btn {
   }
   .pt-lg-11 {
     padding-top: 4rem !important;
+  }
+  .pt-lg-12 {
+    padding-top: 1.875rem !important;
   }
   .pe-lg-0 {
     padding-right: 0 !important;
@@ -12250,6 +12502,9 @@ fieldset:disabled .btn {
   .pe-lg-11 {
     padding-right: 4rem !important;
   }
+  .pe-lg-12 {
+    padding-right: 1.875rem !important;
+  }
   .pb-lg-0 {
     padding-bottom: 0 !important;
   }
@@ -12286,6 +12541,9 @@ fieldset:disabled .btn {
   .pb-lg-11 {
     padding-bottom: 4rem !important;
   }
+  .pb-lg-12 {
+    padding-bottom: 1.875rem !important;
+  }
   .ps-lg-0 {
     padding-left: 0 !important;
   }
@@ -12321,6 +12579,9 @@ fieldset:disabled .btn {
   }
   .ps-lg-11 {
     padding-left: 4rem !important;
+  }
+  .ps-lg-12 {
+    padding-left: 1.875rem !important;
   }
   .text-lg-start {
     text-align: left !important;
@@ -12471,6 +12732,9 @@ fieldset:disabled .btn {
   }
   .gap-xl-11 {
     gap: 4rem !important;
+  }
+  .gap-xl-12 {
+    gap: 1.875rem !important;
   }
   .justify-content-xl-start {
     -webkit-box-pack: start !important;
@@ -12650,6 +12914,9 @@ fieldset:disabled .btn {
   .m-xl-11 {
     margin: 4rem !important;
   }
+  .m-xl-12 {
+    margin: 1.875rem !important;
+  }
   .m-xl-auto {
     margin: auto !important;
   }
@@ -12700,6 +12967,10 @@ fieldset:disabled .btn {
   .mx-xl-11 {
     margin-right: 4rem !important;
     margin-left: 4rem !important;
+  }
+  .mx-xl-12 {
+    margin-right: 1.875rem !important;
+    margin-left: 1.875rem !important;
   }
   .mx-xl-auto {
     margin-right: auto !important;
@@ -12753,6 +13024,10 @@ fieldset:disabled .btn {
     margin-top: 4rem !important;
     margin-bottom: 4rem !important;
   }
+  .my-xl-12 {
+    margin-top: 1.875rem !important;
+    margin-bottom: 1.875rem !important;
+  }
   .my-xl-auto {
     margin-top: auto !important;
     margin-bottom: auto !important;
@@ -12793,6 +13068,9 @@ fieldset:disabled .btn {
   .mt-xl-11 {
     margin-top: 4rem !important;
   }
+  .mt-xl-12 {
+    margin-top: 1.875rem !important;
+  }
   .mt-xl-auto {
     margin-top: auto !important;
   }
@@ -12831,6 +13109,9 @@ fieldset:disabled .btn {
   }
   .me-xl-11 {
     margin-right: 4rem !important;
+  }
+  .me-xl-12 {
+    margin-right: 1.875rem !important;
   }
   .me-xl-auto {
     margin-right: auto !important;
@@ -12871,6 +13152,9 @@ fieldset:disabled .btn {
   .mb-xl-11 {
     margin-bottom: 4rem !important;
   }
+  .mb-xl-12 {
+    margin-bottom: 1.875rem !important;
+  }
   .mb-xl-auto {
     margin-bottom: auto !important;
   }
@@ -12910,6 +13194,9 @@ fieldset:disabled .btn {
   .ms-xl-11 {
     margin-left: 4rem !important;
   }
+  .ms-xl-12 {
+    margin-left: 1.875rem !important;
+  }
   .ms-xl-auto {
     margin-left: auto !important;
   }
@@ -12948,6 +13235,9 @@ fieldset:disabled .btn {
   }
   .p-xl-11 {
     padding: 4rem !important;
+  }
+  .p-xl-12 {
+    padding: 1.875rem !important;
   }
   .px-xl-0 {
     padding-right: 0 !important;
@@ -12997,6 +13287,10 @@ fieldset:disabled .btn {
     padding-right: 4rem !important;
     padding-left: 4rem !important;
   }
+  .px-xl-12 {
+    padding-right: 1.875rem !important;
+    padding-left: 1.875rem !important;
+  }
   .py-xl-0 {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
@@ -13045,6 +13339,10 @@ fieldset:disabled .btn {
     padding-top: 4rem !important;
     padding-bottom: 4rem !important;
   }
+  .py-xl-12 {
+    padding-top: 1.875rem !important;
+    padding-bottom: 1.875rem !important;
+  }
   .pt-xl-0 {
     padding-top: 0 !important;
   }
@@ -13080,6 +13378,9 @@ fieldset:disabled .btn {
   }
   .pt-xl-11 {
     padding-top: 4rem !important;
+  }
+  .pt-xl-12 {
+    padding-top: 1.875rem !important;
   }
   .pe-xl-0 {
     padding-right: 0 !important;
@@ -13117,6 +13418,9 @@ fieldset:disabled .btn {
   .pe-xl-11 {
     padding-right: 4rem !important;
   }
+  .pe-xl-12 {
+    padding-right: 1.875rem !important;
+  }
   .pb-xl-0 {
     padding-bottom: 0 !important;
   }
@@ -13153,6 +13457,9 @@ fieldset:disabled .btn {
   .pb-xl-11 {
     padding-bottom: 4rem !important;
   }
+  .pb-xl-12 {
+    padding-bottom: 1.875rem !important;
+  }
   .ps-xl-0 {
     padding-left: 0 !important;
   }
@@ -13188,6 +13495,9 @@ fieldset:disabled .btn {
   }
   .ps-xl-11 {
     padding-left: 4rem !important;
+  }
+  .ps-xl-12 {
+    padding-left: 1.875rem !important;
   }
   .text-xl-start {
     text-align: left !important;
@@ -13338,6 +13648,9 @@ fieldset:disabled .btn {
   }
   .gap-xxl-11 {
     gap: 4rem !important;
+  }
+  .gap-xxl-12 {
+    gap: 1.875rem !important;
   }
   .justify-content-xxl-start {
     -webkit-box-pack: start !important;
@@ -13517,6 +13830,9 @@ fieldset:disabled .btn {
   .m-xxl-11 {
     margin: 4rem !important;
   }
+  .m-xxl-12 {
+    margin: 1.875rem !important;
+  }
   .m-xxl-auto {
     margin: auto !important;
   }
@@ -13567,6 +13883,10 @@ fieldset:disabled .btn {
   .mx-xxl-11 {
     margin-right: 4rem !important;
     margin-left: 4rem !important;
+  }
+  .mx-xxl-12 {
+    margin-right: 1.875rem !important;
+    margin-left: 1.875rem !important;
   }
   .mx-xxl-auto {
     margin-right: auto !important;
@@ -13620,6 +13940,10 @@ fieldset:disabled .btn {
     margin-top: 4rem !important;
     margin-bottom: 4rem !important;
   }
+  .my-xxl-12 {
+    margin-top: 1.875rem !important;
+    margin-bottom: 1.875rem !important;
+  }
   .my-xxl-auto {
     margin-top: auto !important;
     margin-bottom: auto !important;
@@ -13660,6 +13984,9 @@ fieldset:disabled .btn {
   .mt-xxl-11 {
     margin-top: 4rem !important;
   }
+  .mt-xxl-12 {
+    margin-top: 1.875rem !important;
+  }
   .mt-xxl-auto {
     margin-top: auto !important;
   }
@@ -13698,6 +14025,9 @@ fieldset:disabled .btn {
   }
   .me-xxl-11 {
     margin-right: 4rem !important;
+  }
+  .me-xxl-12 {
+    margin-right: 1.875rem !important;
   }
   .me-xxl-auto {
     margin-right: auto !important;
@@ -13738,6 +14068,9 @@ fieldset:disabled .btn {
   .mb-xxl-11 {
     margin-bottom: 4rem !important;
   }
+  .mb-xxl-12 {
+    margin-bottom: 1.875rem !important;
+  }
   .mb-xxl-auto {
     margin-bottom: auto !important;
   }
@@ -13777,6 +14110,9 @@ fieldset:disabled .btn {
   .ms-xxl-11 {
     margin-left: 4rem !important;
   }
+  .ms-xxl-12 {
+    margin-left: 1.875rem !important;
+  }
   .ms-xxl-auto {
     margin-left: auto !important;
   }
@@ -13815,6 +14151,9 @@ fieldset:disabled .btn {
   }
   .p-xxl-11 {
     padding: 4rem !important;
+  }
+  .p-xxl-12 {
+    padding: 1.875rem !important;
   }
   .px-xxl-0 {
     padding-right: 0 !important;
@@ -13864,6 +14203,10 @@ fieldset:disabled .btn {
     padding-right: 4rem !important;
     padding-left: 4rem !important;
   }
+  .px-xxl-12 {
+    padding-right: 1.875rem !important;
+    padding-left: 1.875rem !important;
+  }
   .py-xxl-0 {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
@@ -13912,6 +14255,10 @@ fieldset:disabled .btn {
     padding-top: 4rem !important;
     padding-bottom: 4rem !important;
   }
+  .py-xxl-12 {
+    padding-top: 1.875rem !important;
+    padding-bottom: 1.875rem !important;
+  }
   .pt-xxl-0 {
     padding-top: 0 !important;
   }
@@ -13947,6 +14294,9 @@ fieldset:disabled .btn {
   }
   .pt-xxl-11 {
     padding-top: 4rem !important;
+  }
+  .pt-xxl-12 {
+    padding-top: 1.875rem !important;
   }
   .pe-xxl-0 {
     padding-right: 0 !important;
@@ -13984,6 +14334,9 @@ fieldset:disabled .btn {
   .pe-xxl-11 {
     padding-right: 4rem !important;
   }
+  .pe-xxl-12 {
+    padding-right: 1.875rem !important;
+  }
   .pb-xxl-0 {
     padding-bottom: 0 !important;
   }
@@ -14020,6 +14373,9 @@ fieldset:disabled .btn {
   .pb-xxl-11 {
     padding-bottom: 4rem !important;
   }
+  .pb-xxl-12 {
+    padding-bottom: 1.875rem !important;
+  }
   .ps-xxl-0 {
     padding-left: 0 !important;
   }
@@ -14055,6 +14411,9 @@ fieldset:disabled .btn {
   }
   .ps-xxl-11 {
     padding-left: 4rem !important;
+  }
+  .ps-xxl-12 {
+    padding-left: 1.875rem !important;
   }
   .text-xxl-start {
     text-align: left !important;
@@ -14619,6 +14978,10 @@ fieldset:disabled .btn {
   gap: 4rem !important;
 }
 
+.gap-12 {
+  gap: 1.875rem !important;
+}
+
 .justify-content-start {
   -webkit-box-pack: start !important;
       -ms-flex-pack: start !important;
@@ -14840,6 +15203,10 @@ fieldset:disabled .btn {
   margin: 4rem !important;
 }
 
+.m-12 {
+  margin: 1.875rem !important;
+}
+
 .m-auto {
   margin: auto !important;
 }
@@ -14902,6 +15269,11 @@ fieldset:disabled .btn {
 .mx-11 {
   margin-right: 4rem !important;
   margin-left: 4rem !important;
+}
+
+.mx-12 {
+  margin-right: 1.875rem !important;
+  margin-left: 1.875rem !important;
 }
 
 .mx-auto {
@@ -14969,6 +15341,11 @@ fieldset:disabled .btn {
   margin-bottom: 4rem !important;
 }
 
+.my-12 {
+  margin-top: 1.875rem !important;
+  margin-bottom: 1.875rem !important;
+}
+
 .my-auto {
   margin-top: auto !important;
   margin-bottom: auto !important;
@@ -15020,6 +15397,10 @@ fieldset:disabled .btn {
 
 .mt-11 {
   margin-top: 4rem !important;
+}
+
+.mt-12 {
+  margin-top: 1.875rem !important;
 }
 
 .mt-auto {
@@ -15074,6 +15455,10 @@ fieldset:disabled .btn {
   margin-right: 4rem !important;
 }
 
+.me-12 {
+  margin-right: 1.875rem !important;
+}
+
 .me-auto {
   margin-right: auto !important;
 }
@@ -15124,6 +15509,10 @@ fieldset:disabled .btn {
 
 .mb-11 {
   margin-bottom: 4rem !important;
+}
+
+.mb-12 {
+  margin-bottom: 1.875rem !important;
 }
 
 .mb-auto {
@@ -15178,6 +15567,10 @@ fieldset:disabled .btn {
   margin-left: 4rem !important;
 }
 
+.ms-12 {
+  margin-left: 1.875rem !important;
+}
+
 .ms-auto {
   margin-left: auto !important;
 }
@@ -15228,6 +15621,10 @@ fieldset:disabled .btn {
 
 .p-11 {
   padding: 4rem !important;
+}
+
+.p-12 {
+  padding: 1.875rem !important;
 }
 
 .px-0 {
@@ -15290,6 +15687,11 @@ fieldset:disabled .btn {
   padding-left: 4rem !important;
 }
 
+.px-12 {
+  padding-right: 1.875rem !important;
+  padding-left: 1.875rem !important;
+}
+
 .py-0 {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
@@ -15350,6 +15752,11 @@ fieldset:disabled .btn {
   padding-bottom: 4rem !important;
 }
 
+.py-12 {
+  padding-top: 1.875rem !important;
+  padding-bottom: 1.875rem !important;
+}
+
 .pt-0 {
   padding-top: 0 !important;
 }
@@ -15396,6 +15803,10 @@ fieldset:disabled .btn {
 
 .pt-11 {
   padding-top: 4rem !important;
+}
+
+.pt-12 {
+  padding-top: 1.875rem !important;
 }
 
 .pe-0 {
@@ -15446,6 +15857,10 @@ fieldset:disabled .btn {
   padding-right: 4rem !important;
 }
 
+.pe-12 {
+  padding-right: 1.875rem !important;
+}
+
 .pb-0 {
   padding-bottom: 0 !important;
 }
@@ -15494,6 +15909,10 @@ fieldset:disabled .btn {
   padding-bottom: 4rem !important;
 }
 
+.pb-12 {
+  padding-bottom: 1.875rem !important;
+}
+
 .ps-0 {
   padding-left: 0 !important;
 }
@@ -15540,6 +15959,10 @@ fieldset:disabled .btn {
 
 .ps-11 {
   padding-left: 4rem !important;
+}
+
+.ps-12 {
+  padding-left: 1.875rem !important;
 }
 
 .font-monospace {
@@ -16112,6 +16535,9 @@ fieldset:disabled .btn {
   .gap-sm-11 {
     gap: 4rem !important;
   }
+  .gap-sm-12 {
+    gap: 1.875rem !important;
+  }
   .justify-content-sm-start {
     -webkit-box-pack: start !important;
         -ms-flex-pack: start !important;
@@ -16290,6 +16716,9 @@ fieldset:disabled .btn {
   .m-sm-11 {
     margin: 4rem !important;
   }
+  .m-sm-12 {
+    margin: 1.875rem !important;
+  }
   .m-sm-auto {
     margin: auto !important;
   }
@@ -16340,6 +16769,10 @@ fieldset:disabled .btn {
   .mx-sm-11 {
     margin-right: 4rem !important;
     margin-left: 4rem !important;
+  }
+  .mx-sm-12 {
+    margin-right: 1.875rem !important;
+    margin-left: 1.875rem !important;
   }
   .mx-sm-auto {
     margin-right: auto !important;
@@ -16393,6 +16826,10 @@ fieldset:disabled .btn {
     margin-top: 4rem !important;
     margin-bottom: 4rem !important;
   }
+  .my-sm-12 {
+    margin-top: 1.875rem !important;
+    margin-bottom: 1.875rem !important;
+  }
   .my-sm-auto {
     margin-top: auto !important;
     margin-bottom: auto !important;
@@ -16433,6 +16870,9 @@ fieldset:disabled .btn {
   .mt-sm-11 {
     margin-top: 4rem !important;
   }
+  .mt-sm-12 {
+    margin-top: 1.875rem !important;
+  }
   .mt-sm-auto {
     margin-top: auto !important;
   }
@@ -16471,6 +16911,9 @@ fieldset:disabled .btn {
   }
   .me-sm-11 {
     margin-right: 4rem !important;
+  }
+  .me-sm-12 {
+    margin-right: 1.875rem !important;
   }
   .me-sm-auto {
     margin-right: auto !important;
@@ -16511,6 +16954,9 @@ fieldset:disabled .btn {
   .mb-sm-11 {
     margin-bottom: 4rem !important;
   }
+  .mb-sm-12 {
+    margin-bottom: 1.875rem !important;
+  }
   .mb-sm-auto {
     margin-bottom: auto !important;
   }
@@ -16550,6 +16996,9 @@ fieldset:disabled .btn {
   .ms-sm-11 {
     margin-left: 4rem !important;
   }
+  .ms-sm-12 {
+    margin-left: 1.875rem !important;
+  }
   .ms-sm-auto {
     margin-left: auto !important;
   }
@@ -16588,6 +17037,9 @@ fieldset:disabled .btn {
   }
   .p-sm-11 {
     padding: 4rem !important;
+  }
+  .p-sm-12 {
+    padding: 1.875rem !important;
   }
   .px-sm-0 {
     padding-right: 0 !important;
@@ -16637,6 +17089,10 @@ fieldset:disabled .btn {
     padding-right: 4rem !important;
     padding-left: 4rem !important;
   }
+  .px-sm-12 {
+    padding-right: 1.875rem !important;
+    padding-left: 1.875rem !important;
+  }
   .py-sm-0 {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
@@ -16685,6 +17141,10 @@ fieldset:disabled .btn {
     padding-top: 4rem !important;
     padding-bottom: 4rem !important;
   }
+  .py-sm-12 {
+    padding-top: 1.875rem !important;
+    padding-bottom: 1.875rem !important;
+  }
   .pt-sm-0 {
     padding-top: 0 !important;
   }
@@ -16720,6 +17180,9 @@ fieldset:disabled .btn {
   }
   .pt-sm-11 {
     padding-top: 4rem !important;
+  }
+  .pt-sm-12 {
+    padding-top: 1.875rem !important;
   }
   .pe-sm-0 {
     padding-right: 0 !important;
@@ -16757,6 +17220,9 @@ fieldset:disabled .btn {
   .pe-sm-11 {
     padding-right: 4rem !important;
   }
+  .pe-sm-12 {
+    padding-right: 1.875rem !important;
+  }
   .pb-sm-0 {
     padding-bottom: 0 !important;
   }
@@ -16793,6 +17259,9 @@ fieldset:disabled .btn {
   .pb-sm-11 {
     padding-bottom: 4rem !important;
   }
+  .pb-sm-12 {
+    padding-bottom: 1.875rem !important;
+  }
   .ps-sm-0 {
     padding-left: 0 !important;
   }
@@ -16828,6 +17297,9 @@ fieldset:disabled .btn {
   }
   .ps-sm-11 {
     padding-left: 4rem !important;
+  }
+  .ps-sm-12 {
+    padding-left: 1.875rem !important;
   }
   .fs-sm-1 {
     font-size: 2.5rem !important;
@@ -17039,6 +17511,9 @@ fieldset:disabled .btn {
   .gap-md-11 {
     gap: 4rem !important;
   }
+  .gap-md-12 {
+    gap: 1.875rem !important;
+  }
   .justify-content-md-start {
     -webkit-box-pack: start !important;
         -ms-flex-pack: start !important;
@@ -17217,6 +17692,9 @@ fieldset:disabled .btn {
   .m-md-11 {
     margin: 4rem !important;
   }
+  .m-md-12 {
+    margin: 1.875rem !important;
+  }
   .m-md-auto {
     margin: auto !important;
   }
@@ -17267,6 +17745,10 @@ fieldset:disabled .btn {
   .mx-md-11 {
     margin-right: 4rem !important;
     margin-left: 4rem !important;
+  }
+  .mx-md-12 {
+    margin-right: 1.875rem !important;
+    margin-left: 1.875rem !important;
   }
   .mx-md-auto {
     margin-right: auto !important;
@@ -17320,6 +17802,10 @@ fieldset:disabled .btn {
     margin-top: 4rem !important;
     margin-bottom: 4rem !important;
   }
+  .my-md-12 {
+    margin-top: 1.875rem !important;
+    margin-bottom: 1.875rem !important;
+  }
   .my-md-auto {
     margin-top: auto !important;
     margin-bottom: auto !important;
@@ -17360,6 +17846,9 @@ fieldset:disabled .btn {
   .mt-md-11 {
     margin-top: 4rem !important;
   }
+  .mt-md-12 {
+    margin-top: 1.875rem !important;
+  }
   .mt-md-auto {
     margin-top: auto !important;
   }
@@ -17398,6 +17887,9 @@ fieldset:disabled .btn {
   }
   .me-md-11 {
     margin-right: 4rem !important;
+  }
+  .me-md-12 {
+    margin-right: 1.875rem !important;
   }
   .me-md-auto {
     margin-right: auto !important;
@@ -17438,6 +17930,9 @@ fieldset:disabled .btn {
   .mb-md-11 {
     margin-bottom: 4rem !important;
   }
+  .mb-md-12 {
+    margin-bottom: 1.875rem !important;
+  }
   .mb-md-auto {
     margin-bottom: auto !important;
   }
@@ -17477,6 +17972,9 @@ fieldset:disabled .btn {
   .ms-md-11 {
     margin-left: 4rem !important;
   }
+  .ms-md-12 {
+    margin-left: 1.875rem !important;
+  }
   .ms-md-auto {
     margin-left: auto !important;
   }
@@ -17515,6 +18013,9 @@ fieldset:disabled .btn {
   }
   .p-md-11 {
     padding: 4rem !important;
+  }
+  .p-md-12 {
+    padding: 1.875rem !important;
   }
   .px-md-0 {
     padding-right: 0 !important;
@@ -17564,6 +18065,10 @@ fieldset:disabled .btn {
     padding-right: 4rem !important;
     padding-left: 4rem !important;
   }
+  .px-md-12 {
+    padding-right: 1.875rem !important;
+    padding-left: 1.875rem !important;
+  }
   .py-md-0 {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
@@ -17612,6 +18117,10 @@ fieldset:disabled .btn {
     padding-top: 4rem !important;
     padding-bottom: 4rem !important;
   }
+  .py-md-12 {
+    padding-top: 1.875rem !important;
+    padding-bottom: 1.875rem !important;
+  }
   .pt-md-0 {
     padding-top: 0 !important;
   }
@@ -17647,6 +18156,9 @@ fieldset:disabled .btn {
   }
   .pt-md-11 {
     padding-top: 4rem !important;
+  }
+  .pt-md-12 {
+    padding-top: 1.875rem !important;
   }
   .pe-md-0 {
     padding-right: 0 !important;
@@ -17684,6 +18196,9 @@ fieldset:disabled .btn {
   .pe-md-11 {
     padding-right: 4rem !important;
   }
+  .pe-md-12 {
+    padding-right: 1.875rem !important;
+  }
   .pb-md-0 {
     padding-bottom: 0 !important;
   }
@@ -17720,6 +18235,9 @@ fieldset:disabled .btn {
   .pb-md-11 {
     padding-bottom: 4rem !important;
   }
+  .pb-md-12 {
+    padding-bottom: 1.875rem !important;
+  }
   .ps-md-0 {
     padding-left: 0 !important;
   }
@@ -17755,6 +18273,9 @@ fieldset:disabled .btn {
   }
   .ps-md-11 {
     padding-left: 4rem !important;
+  }
+  .ps-md-12 {
+    padding-left: 1.875rem !important;
   }
   .fs-md-1 {
     font-size: 2.5rem !important;
@@ -17966,6 +18487,9 @@ fieldset:disabled .btn {
   .gap-lg-11 {
     gap: 4rem !important;
   }
+  .gap-lg-12 {
+    gap: 1.875rem !important;
+  }
   .justify-content-lg-start {
     -webkit-box-pack: start !important;
         -ms-flex-pack: start !important;
@@ -18144,6 +18668,9 @@ fieldset:disabled .btn {
   .m-lg-11 {
     margin: 4rem !important;
   }
+  .m-lg-12 {
+    margin: 1.875rem !important;
+  }
   .m-lg-auto {
     margin: auto !important;
   }
@@ -18194,6 +18721,10 @@ fieldset:disabled .btn {
   .mx-lg-11 {
     margin-right: 4rem !important;
     margin-left: 4rem !important;
+  }
+  .mx-lg-12 {
+    margin-right: 1.875rem !important;
+    margin-left: 1.875rem !important;
   }
   .mx-lg-auto {
     margin-right: auto !important;
@@ -18247,6 +18778,10 @@ fieldset:disabled .btn {
     margin-top: 4rem !important;
     margin-bottom: 4rem !important;
   }
+  .my-lg-12 {
+    margin-top: 1.875rem !important;
+    margin-bottom: 1.875rem !important;
+  }
   .my-lg-auto {
     margin-top: auto !important;
     margin-bottom: auto !important;
@@ -18287,6 +18822,9 @@ fieldset:disabled .btn {
   .mt-lg-11 {
     margin-top: 4rem !important;
   }
+  .mt-lg-12 {
+    margin-top: 1.875rem !important;
+  }
   .mt-lg-auto {
     margin-top: auto !important;
   }
@@ -18325,6 +18863,9 @@ fieldset:disabled .btn {
   }
   .me-lg-11 {
     margin-right: 4rem !important;
+  }
+  .me-lg-12 {
+    margin-right: 1.875rem !important;
   }
   .me-lg-auto {
     margin-right: auto !important;
@@ -18365,6 +18906,9 @@ fieldset:disabled .btn {
   .mb-lg-11 {
     margin-bottom: 4rem !important;
   }
+  .mb-lg-12 {
+    margin-bottom: 1.875rem !important;
+  }
   .mb-lg-auto {
     margin-bottom: auto !important;
   }
@@ -18404,6 +18948,9 @@ fieldset:disabled .btn {
   .ms-lg-11 {
     margin-left: 4rem !important;
   }
+  .ms-lg-12 {
+    margin-left: 1.875rem !important;
+  }
   .ms-lg-auto {
     margin-left: auto !important;
   }
@@ -18442,6 +18989,9 @@ fieldset:disabled .btn {
   }
   .p-lg-11 {
     padding: 4rem !important;
+  }
+  .p-lg-12 {
+    padding: 1.875rem !important;
   }
   .px-lg-0 {
     padding-right: 0 !important;
@@ -18491,6 +19041,10 @@ fieldset:disabled .btn {
     padding-right: 4rem !important;
     padding-left: 4rem !important;
   }
+  .px-lg-12 {
+    padding-right: 1.875rem !important;
+    padding-left: 1.875rem !important;
+  }
   .py-lg-0 {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
@@ -18539,6 +19093,10 @@ fieldset:disabled .btn {
     padding-top: 4rem !important;
     padding-bottom: 4rem !important;
   }
+  .py-lg-12 {
+    padding-top: 1.875rem !important;
+    padding-bottom: 1.875rem !important;
+  }
   .pt-lg-0 {
     padding-top: 0 !important;
   }
@@ -18574,6 +19132,9 @@ fieldset:disabled .btn {
   }
   .pt-lg-11 {
     padding-top: 4rem !important;
+  }
+  .pt-lg-12 {
+    padding-top: 1.875rem !important;
   }
   .pe-lg-0 {
     padding-right: 0 !important;
@@ -18611,6 +19172,9 @@ fieldset:disabled .btn {
   .pe-lg-11 {
     padding-right: 4rem !important;
   }
+  .pe-lg-12 {
+    padding-right: 1.875rem !important;
+  }
   .pb-lg-0 {
     padding-bottom: 0 !important;
   }
@@ -18647,6 +19211,9 @@ fieldset:disabled .btn {
   .pb-lg-11 {
     padding-bottom: 4rem !important;
   }
+  .pb-lg-12 {
+    padding-bottom: 1.875rem !important;
+  }
   .ps-lg-0 {
     padding-left: 0 !important;
   }
@@ -18682,6 +19249,9 @@ fieldset:disabled .btn {
   }
   .ps-lg-11 {
     padding-left: 4rem !important;
+  }
+  .ps-lg-12 {
+    padding-left: 1.875rem !important;
   }
   .fs-lg-1 {
     font-size: 2.5rem !important;
@@ -18893,6 +19463,9 @@ fieldset:disabled .btn {
   .gap-xl-11 {
     gap: 4rem !important;
   }
+  .gap-xl-12 {
+    gap: 1.875rem !important;
+  }
   .justify-content-xl-start {
     -webkit-box-pack: start !important;
         -ms-flex-pack: start !important;
@@ -19071,6 +19644,9 @@ fieldset:disabled .btn {
   .m-xl-11 {
     margin: 4rem !important;
   }
+  .m-xl-12 {
+    margin: 1.875rem !important;
+  }
   .m-xl-auto {
     margin: auto !important;
   }
@@ -19121,6 +19697,10 @@ fieldset:disabled .btn {
   .mx-xl-11 {
     margin-right: 4rem !important;
     margin-left: 4rem !important;
+  }
+  .mx-xl-12 {
+    margin-right: 1.875rem !important;
+    margin-left: 1.875rem !important;
   }
   .mx-xl-auto {
     margin-right: auto !important;
@@ -19174,6 +19754,10 @@ fieldset:disabled .btn {
     margin-top: 4rem !important;
     margin-bottom: 4rem !important;
   }
+  .my-xl-12 {
+    margin-top: 1.875rem !important;
+    margin-bottom: 1.875rem !important;
+  }
   .my-xl-auto {
     margin-top: auto !important;
     margin-bottom: auto !important;
@@ -19214,6 +19798,9 @@ fieldset:disabled .btn {
   .mt-xl-11 {
     margin-top: 4rem !important;
   }
+  .mt-xl-12 {
+    margin-top: 1.875rem !important;
+  }
   .mt-xl-auto {
     margin-top: auto !important;
   }
@@ -19252,6 +19839,9 @@ fieldset:disabled .btn {
   }
   .me-xl-11 {
     margin-right: 4rem !important;
+  }
+  .me-xl-12 {
+    margin-right: 1.875rem !important;
   }
   .me-xl-auto {
     margin-right: auto !important;
@@ -19292,6 +19882,9 @@ fieldset:disabled .btn {
   .mb-xl-11 {
     margin-bottom: 4rem !important;
   }
+  .mb-xl-12 {
+    margin-bottom: 1.875rem !important;
+  }
   .mb-xl-auto {
     margin-bottom: auto !important;
   }
@@ -19331,6 +19924,9 @@ fieldset:disabled .btn {
   .ms-xl-11 {
     margin-left: 4rem !important;
   }
+  .ms-xl-12 {
+    margin-left: 1.875rem !important;
+  }
   .ms-xl-auto {
     margin-left: auto !important;
   }
@@ -19369,6 +19965,9 @@ fieldset:disabled .btn {
   }
   .p-xl-11 {
     padding: 4rem !important;
+  }
+  .p-xl-12 {
+    padding: 1.875rem !important;
   }
   .px-xl-0 {
     padding-right: 0 !important;
@@ -19418,6 +20017,10 @@ fieldset:disabled .btn {
     padding-right: 4rem !important;
     padding-left: 4rem !important;
   }
+  .px-xl-12 {
+    padding-right: 1.875rem !important;
+    padding-left: 1.875rem !important;
+  }
   .py-xl-0 {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
@@ -19466,6 +20069,10 @@ fieldset:disabled .btn {
     padding-top: 4rem !important;
     padding-bottom: 4rem !important;
   }
+  .py-xl-12 {
+    padding-top: 1.875rem !important;
+    padding-bottom: 1.875rem !important;
+  }
   .pt-xl-0 {
     padding-top: 0 !important;
   }
@@ -19501,6 +20108,9 @@ fieldset:disabled .btn {
   }
   .pt-xl-11 {
     padding-top: 4rem !important;
+  }
+  .pt-xl-12 {
+    padding-top: 1.875rem !important;
   }
   .pe-xl-0 {
     padding-right: 0 !important;
@@ -19538,6 +20148,9 @@ fieldset:disabled .btn {
   .pe-xl-11 {
     padding-right: 4rem !important;
   }
+  .pe-xl-12 {
+    padding-right: 1.875rem !important;
+  }
   .pb-xl-0 {
     padding-bottom: 0 !important;
   }
@@ -19574,6 +20187,9 @@ fieldset:disabled .btn {
   .pb-xl-11 {
     padding-bottom: 4rem !important;
   }
+  .pb-xl-12 {
+    padding-bottom: 1.875rem !important;
+  }
   .ps-xl-0 {
     padding-left: 0 !important;
   }
@@ -19609,6 +20225,9 @@ fieldset:disabled .btn {
   }
   .ps-xl-11 {
     padding-left: 4rem !important;
+  }
+  .ps-xl-12 {
+    padding-left: 1.875rem !important;
   }
   .fs-xl-1 {
     font-size: 2.5rem !important;
@@ -19820,6 +20439,9 @@ fieldset:disabled .btn {
   .gap-xxl-11 {
     gap: 4rem !important;
   }
+  .gap-xxl-12 {
+    gap: 1.875rem !important;
+  }
   .justify-content-xxl-start {
     -webkit-box-pack: start !important;
         -ms-flex-pack: start !important;
@@ -19998,6 +20620,9 @@ fieldset:disabled .btn {
   .m-xxl-11 {
     margin: 4rem !important;
   }
+  .m-xxl-12 {
+    margin: 1.875rem !important;
+  }
   .m-xxl-auto {
     margin: auto !important;
   }
@@ -20048,6 +20673,10 @@ fieldset:disabled .btn {
   .mx-xxl-11 {
     margin-right: 4rem !important;
     margin-left: 4rem !important;
+  }
+  .mx-xxl-12 {
+    margin-right: 1.875rem !important;
+    margin-left: 1.875rem !important;
   }
   .mx-xxl-auto {
     margin-right: auto !important;
@@ -20101,6 +20730,10 @@ fieldset:disabled .btn {
     margin-top: 4rem !important;
     margin-bottom: 4rem !important;
   }
+  .my-xxl-12 {
+    margin-top: 1.875rem !important;
+    margin-bottom: 1.875rem !important;
+  }
   .my-xxl-auto {
     margin-top: auto !important;
     margin-bottom: auto !important;
@@ -20141,6 +20774,9 @@ fieldset:disabled .btn {
   .mt-xxl-11 {
     margin-top: 4rem !important;
   }
+  .mt-xxl-12 {
+    margin-top: 1.875rem !important;
+  }
   .mt-xxl-auto {
     margin-top: auto !important;
   }
@@ -20179,6 +20815,9 @@ fieldset:disabled .btn {
   }
   .me-xxl-11 {
     margin-right: 4rem !important;
+  }
+  .me-xxl-12 {
+    margin-right: 1.875rem !important;
   }
   .me-xxl-auto {
     margin-right: auto !important;
@@ -20219,6 +20858,9 @@ fieldset:disabled .btn {
   .mb-xxl-11 {
     margin-bottom: 4rem !important;
   }
+  .mb-xxl-12 {
+    margin-bottom: 1.875rem !important;
+  }
   .mb-xxl-auto {
     margin-bottom: auto !important;
   }
@@ -20258,6 +20900,9 @@ fieldset:disabled .btn {
   .ms-xxl-11 {
     margin-left: 4rem !important;
   }
+  .ms-xxl-12 {
+    margin-left: 1.875rem !important;
+  }
   .ms-xxl-auto {
     margin-left: auto !important;
   }
@@ -20296,6 +20941,9 @@ fieldset:disabled .btn {
   }
   .p-xxl-11 {
     padding: 4rem !important;
+  }
+  .p-xxl-12 {
+    padding: 1.875rem !important;
   }
   .px-xxl-0 {
     padding-right: 0 !important;
@@ -20345,6 +20993,10 @@ fieldset:disabled .btn {
     padding-right: 4rem !important;
     padding-left: 4rem !important;
   }
+  .px-xxl-12 {
+    padding-right: 1.875rem !important;
+    padding-left: 1.875rem !important;
+  }
   .py-xxl-0 {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
@@ -20393,6 +21045,10 @@ fieldset:disabled .btn {
     padding-top: 4rem !important;
     padding-bottom: 4rem !important;
   }
+  .py-xxl-12 {
+    padding-top: 1.875rem !important;
+    padding-bottom: 1.875rem !important;
+  }
   .pt-xxl-0 {
     padding-top: 0 !important;
   }
@@ -20428,6 +21084,9 @@ fieldset:disabled .btn {
   }
   .pt-xxl-11 {
     padding-top: 4rem !important;
+  }
+  .pt-xxl-12 {
+    padding-top: 1.875rem !important;
   }
   .pe-xxl-0 {
     padding-right: 0 !important;
@@ -20465,6 +21124,9 @@ fieldset:disabled .btn {
   .pe-xxl-11 {
     padding-right: 4rem !important;
   }
+  .pe-xxl-12 {
+    padding-right: 1.875rem !important;
+  }
   .pb-xxl-0 {
     padding-bottom: 0 !important;
   }
@@ -20501,6 +21163,9 @@ fieldset:disabled .btn {
   .pb-xxl-11 {
     padding-bottom: 4rem !important;
   }
+  .pb-xxl-12 {
+    padding-bottom: 1.875rem !important;
+  }
   .ps-xxl-0 {
     padding-left: 0 !important;
   }
@@ -20536,6 +21201,9 @@ fieldset:disabled .btn {
   }
   .ps-xxl-11 {
     padding-left: 4rem !important;
+  }
+  .ps-xxl-12 {
+    padding-left: 1.875rem !important;
   }
   .fs-xxl-1 {
     font-size: 2.5rem !important;
@@ -20674,187 +21342,64 @@ body {
   font-weight: 200;
 }
 
-.top-teachers {
-  padding: 32px 0 32px 0;
-}
-
-.top-teachers-img {
-  display: none;
-  max-height: 628px;
-  border-radius: 1rem;
-}
-
-@media (min-width: 1200px) {
-  .top-teachers-img {
-    width: 50%;
-    display: block;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
-}
-
-@media (min-width: 1200px) {
-  .top-teachers-main {
-    padding-top: 30px;
-    padding-left: 30px;
-    width: 50%;
-  }
-}
-
-.top-teachers-main h1, .top-teachers-main .h1 {
-  margin-bottom: 4px;
-  color: #907A7B;
-  font-size: 28px;
-}
-
-@media (min-width: 1200px) {
-  .top-teachers-main h1, .top-teachers-main .h1 {
-    font-size: 28px;
-  }
-}
-
-.top-teachers-main p {
-  margin-bottom: 24px;
-  color: #C0A4A5;
-  font-size: 20px;
+.doyoga-teachers-img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 50%;
+  height: 628px;
 }
 
 @media (min-width: 768px) {
-  .top-teachers-main p {
-    width: 450px;
+  .teacher-one {
+    width: 90%;
   }
 }
 
 @media (min-width: 1200px) {
-  .top-teachers-main p {
-    font-size: 16px;
-    width: 100%;
-  }
-}
-
-.top-teachers-header {
-  margin-bottom: 0;
-}
-
-@media (min-width: 768px) {
-  .top-teachers-header {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-}
-
-@media (min-width: 1200px) {
-  .top-teachers-header {
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-  }
-}
-
-@media (min-width: 1200px) {
-  .top-teachers-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-}
-
-.top-teachers-cards {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-@media (min-width: 768px) {
-  .top-teachers-cards {
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
-  }
-}
-
-.top-teachers-cards-one, .top-teachers-cards-others {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background: #fff;
-  border-radius: 16px;
-  padding: 16px;
-  margin-bottom: 16px;
-}
-
-.top-teachers-cards-one ul, .top-teachers-cards-others ul {
-  margin-bottom: 0;
-}
-
-.top-teachers-cards-one img, .top-teachers-cards-others img {
-  max-width: 48px;
-  max-height: 48px;
-  margin-right: 16px;
-}
-
-.top-teachers-cards-one h1, .top-teachers-cards-one .h1, .top-teachers-cards-others h1, .top-teachers-cards-others .h1 {
-  font-size: 20px;
-}
-
-.top-teachers-cards-one p, .top-teachers-cards-others p {
-  font-size: 16px;
-}
-
-@media (min-width: 768px) {
-  .top-teachers-cards-one {
-    width: 630px;
-    padding: 40px 52px 40px 48px;
-  }
-  .top-teachers-cards-one img {
-    max-width: 94px;
-    max-height: 94px;
-  }
-  .top-teachers-cards-others {
-    padding: 24px 0 24px 32px;
-    width: 540px;
-  }
-  .top-teachers-cards-others img {
-    max-width: 68px;
-    max-height: 68px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .top-teachers-cards-one {
+  .teacher-one {
+    margin-left: -85px;
     width: 118%;
   }
-  .top-teachers-cards-others {
+}
+
+.teacher-one-img {
+  width: 48px;
+  height: 48px;
+}
+
+@media (min-width: 768px) {
+  .teacher-one-img {
+    width: 94px;
+    height: 94px;
+  }
+}
+
+.teacher-others {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .teacher-others {
+    width: 80%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .teacher-others {
     width: 100%;
   }
 }
 
-.top-teachers-cards-one-list h1, .top-teachers-cards-one-list .h1 {
-  text-align: left;
-  margin-bottom: 4px;
-  color: #707070;
-  font-size: 20px;
+.teacher-others-img {
+  width: 48px;
+  height: 48px;
 }
 
-.top-teachers-cards-one-list p {
-  color: #707070;
-  font-size: 16px;
-  margin-bottom: 4px;
+@media (min-width: 768px) {
+  .teacher-others-img {
+    width: 68px;
+    height: 68px;
+  }
 }
 
 @media (min-width: 992px) {
