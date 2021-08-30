@@ -21281,6 +21281,28 @@ body {
   font-family: 'Noto Sans TC', sans-serif;
 }
 
+.progressbar {
+  outline: red 1px solid;
+}
+
+.progressbar__item {
+  border-radius: 16px;
+  padding: 12px 20px;
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .progressbar__item {
+    padding: 12px 13px;
+  }
+}
+
+@media (min-width: 992px) {
+  .progressbar__item {
+    padding: 12px 0px;
+  }
+}
+
 .banner {
   background-image: url(../images/hero/Banner.jpeg);
   height: 560px;
@@ -21465,6 +21487,11 @@ body {
   position: absolute;
   top: 280px;
   left: 5px;
+}
+
+.reserve_form {
+  padding-top: 48px;
+  padding-bottom: 88px;
 }
 
 .textsub {
