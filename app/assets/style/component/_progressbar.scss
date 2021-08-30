@@ -1,0 +1,19 @@
+.progressbar {
+    outline: red 1px solid;
+}
+
+.progressbar__item {
+    border-radius: 16px;
+    padding: 12px 20px;
+    margin-bottom: 0;
+ 
+    @include media-breakpoint-up(md) {
+        padding: 12px 13px;
+      }
+
+    @include media-breakpoint-up(lg) {
+        padding: 12px 0px;
+      }
+
+   
+}
