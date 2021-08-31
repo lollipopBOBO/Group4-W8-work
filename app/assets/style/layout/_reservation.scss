@@ -1,0 +1,39 @@
+.reservation-step-items{
+    width: 104px;
+    height: 48px;
+}
+.reservation-experience-items{
+    @include pad{
+        width: 50%;
+    }
+    @include pc{
+        width: 100%;
+    }
+    &-img{
+        object-fit: cover;
+        width: 100%;
+        height: 243px;
+        border-radius: 16px 16px 0 0;
+        @include pad{
+            width: 100%;
+            height: 238px;
+            border-radius: 16px 0 0 16px;
+        }
+        @include pad{
+            border-radius: 16px 16px 0 0;
+        }
+    }
+    &-btn{
+        width: 100%;
+    }
+}
+.reservation-information-list{
+    margin-bottom: 88px;
+    @include pad{
+        width: 445px;
+        margin-bottom: 80px;
+    }
+    @include pc{
+        margin-bottom: 104px;
+    }
+}
