@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>立即預約｜填寫資料</title>
+  <title>DOYOGA｜首頁</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
   <link rel="stylesheet" href="./assets/style/bootstrap.css">
   <!-- Swiper -->
@@ -62,72 +62,81 @@
     </ul>
   </div>
 
-  <div class="reserve_form">
-<div class="container  text-center ">
-    <h2 class="h4 text-secondary mb-5 mb-md-3">立即預約</h2>
-    <ul class="progressbar row justify-content-center  list-unstyled ">
-        <li class="col col-md-2">
-          <p class="progressbar__item bg-light  text-secondary">選擇方案</p>
+  <!-- reservation -->
+<div class="container">
+    <h3 class="mt-8 mb-5 mb-md-3 text-center">立即預約</h3>
+    <ul class="reservation-step-list list-unstyled d-flex justify-content-md-center mb-7">
+        <li class="reservation-step-items text-white bg-secondary d-flex justify-content-center align-items-center border-radius-pill rounded-4  me-3 me-md-12">
+            <h7 class="">選擇方案</h7>
         </li>
-        <li class="col col-md-2">
-            <p class="progressbar__item bg-secondary  text-light" >填寫資料</p>
+        <li class="reservation-step-items text-secondary bg-light d-flex justify-content-center align-items-center border-radius-pill rounded-4  me-3 me-md-12">
+            <h7>填寫資料</h7>
         </li>
-        <li  class="col col-md-2">
-            <p class="progressbar__item bg-light  text-secondary" >完成預約</p>
-        </li>
-    </ul>
-    <p class=" text-dark ">您選擇的是 <span class="h5 text-primary ms-3">首次體驗課程-基礎</span></p>
-    <form action="" method="POST" >
-    <ul class="list-unstyled text-start ">
-        <li >
-            <label for="yes">1. 是否接觸過瑜珈?</label> <br>
-            <input type="radio" name="accessYoga" value="yes" id="yes" checked><label for="yes">是</label>
-            <input type="radio" name="accessYoga" value="no" id="no" ><label for="no">否</label>
-        </li>
-        <li>
-            <label for="pb_1">2. 想改善的生活問題?</label>  <br>
-            <input type="checkbox" name="problem" value="pb_1" id="pb_1"><label for="pb_1">肌耐力不足</label>
-            <input type="checkbox" name="problem" value="pb_2" id="pb_2"><label for="pb_2">柔軟度不佳</label>
-            <input type="checkbox" name="problem" value="pb_3" id="pb_3"><label for="pb_3">壓力大</label> <br>
-            <input type="checkbox" name="problem" value="pb_4" id="pb_4"><label for="pb_4">姿勢不正</label>
-            <input type="checkbox" name="problem" value="pb_5" id="pb_5"><label for="pb_5">睡眠品質差</label>
-            <input type="checkbox" name="problem" value="pb_6" id="pb_6"><label for="pb_6">注意力不足</label>
-        </li>
-        <li>
-            <label for="1">3. 每週累積運動量約為多少？</label>  <br>
-            <input type="radio" name="exerciseTime" value="eT_1" id="eT_1"><label for="eT_1">150 分鐘以上</label>
-            <input type="radio" name="exerciseTime" value="eT_2" id="eT_2"><label for="eT_2">75~150 分鐘</label> <br>
-            <input type="radio" name="exerciseTime" value="eT_3" id="eT_3"><label for="eT_3">30~75 分鐘</label>
-            <input type="radio" name="exerciseTime" value="eT_4" id="eT_4"><label for="eT_4">30 分鐘以下</label>
-        </li>
-        <li>
-            <p>4. 上課預約報到日</p>
-            <p>若還沒有確定的日期，可以等待專員與您聯絡時在做詳細的諮詢哦！</p>
-            <input type="date" name="" id="">
-        </li>
-        <li>
-            <p>5. 填寫基本資料，完成預約後會寄送通知至電子信箱</p>
-            <label for="name">姓名</label> <br>
-            <input type="text" name="name" id="name" placeholder="請輸入您的姓名"> <br>
-            <label for="age">年齡</label> <br>
-            <input type="text" name="age" id="age" placeholder="請輸入您的年齡"> <br>
-            <label for="gender">性別</label> <br>
-            <select id="gender"> 
-                <option value="female" >女</option>
-                <option value="male" >男</option>
-            </select> <br>
-            <label for="email">電子信箱</label> <br>
-            <input type="email" name="email" id="email" placeholder="email@example.com"> <br>
-          
-            <label for="phone">手機號碼</label> <br>
-            <input type="tel" name="phone" id="phone" placeholder="0912-345-678">
-            
+        <li class="reservation-step-items text-secondary bg-light d-flex justify-content-center align-items-center border-radius-pill rounded-4  me-3">
+            <h7>完成預約</h7>
         </li>
     </ul>
-    <button class="w-100 btn btn-primary text-white">送出</button>
-    </form>
+    <ul class="reservation-experience-list list-unstyled d-lg-flex justify-space-between mb-8 mb-lg-7">
+        <li class="mb-3 mb-md-4 mb-lg-0 me-lg-12">
+            <ul class="rounded-4 list-unstyled border border-primary d-md-flex flex-lg-column">
+                <li class="reservation-experience-items">
+                    <img class="reservation-experience-items-img" src="https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/woman%20in%20white%20tank%20top%20and%20white%20leggings%20bending%20her%20body.jpg?raw=true" alt="body1.jpg">
+                </li>
+                <li class="reservation-experience-items d-flex flex-column align-items-center align-items-md-start align-items-lg-center px-5">
+                    <h6 class="text-secondary mt-5 mb-1">首次體驗</h6>
+                    <h6 class="text-primary mb-2">NT $450 / 次</h6>
+                    <h7 class="text-secondary mb-8 mb-5">分基礎、中級、高級可以選擇。初次至 DOYOGA 上課建議選擇此方案。</h7>
+                    <button class="reservation-experience-items-btn bg-primary text-white btn mb-5">選擇課程</button>
+                </li>
+            </ul>
+        </li>
+        <li class="mb-3 mb-md-4 mb-lg-0 me-lg-12">
+            <ul class="rounded-4 list-unstyled border border-primary d-md-flex flex-lg-column">
+                <li class="reservation-experience-items">
+                    <img class="reservation-experience-items-img" src="https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/woman%20performing%20yoga.jpg?raw=true" alt="body1.jpg">
+                </li>
+                <li class="reservation-experience-items d-flex flex-column align-items-center align-items-md-start align-items-lg-center px-5">
+                    <h6 class="text-secondary mt-5 mb-1">首次體驗</h6>
+                    <h6 class="text-primary mb-2">NT $450 / 次</h6>
+                    <h7 class="text-secondary mb-8 mb-5">分基礎、中級、高級可以選擇。初次至 DOYOGA 上課建議選擇此方案。</h7>
+                    <button class="reservation-experience-items-btn bg-primary text-white btn mb-5">選擇課程</button>
+                </li>
+            </ul>
+        </li>
+        <li class="mb-3 mb-md-4 mb-lg-0">
+            <ul class="rounded-4 list-unstyled border border-primary d-md-flex flex-lg-column">
+                <li class="reservation-experience-items">
+                    <img class="reservation-experience-items-img" src="https://github.com/hexschool/webLayoutTraining1st/blob/master/yoga-week8/woman%20in%20blue%20leggings%20and%20black%20tank%20top%20doing%20yoga.jpg?raw=true" alt="body1.jpg">
+                </li>
+                <li class="reservation-experience-items d-flex flex-column align-items-center align-items-md-start align-items-lg-center px-5">
+                    <h6 class="text-secondary mt-5 mb-1">首次體驗</h6>
+                    <h6 class="text-primary mb-2">NT $450 / 次</h6>
+                    <h7 class="text-secondary mb-8 mb-5">分基礎、中級、高級可以選擇。初次至 DOYOGA 上課建議選擇此方案。</h7>
+                    <button class="reservation-experience-items-btn bg-primary text-white btn mb-5">選擇課程</button>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <div class="reservation-information d-flex flex-column align-items-center">
+        <h4 class="md-3">預約須知</h4>
+        <ul class="reservation-information-list list-unstyled">
+            <li class="mb-1">
+                <h7>1. 如果有特殊體質、特殊狀況，請主動告知。</h7>
+            </li>
+            <li class="mb-1">
+                <h7>2. 取消預約或時間異動請於預約日前一天晚間 21:00 前告知，預約當日請勿異動或取消，以免影響您日後再預約的個人信用及難度。</h7>
+            </li>
+            <li class="mb-1">
+                <h7>3. 為維護上課品質，請遵守 DOYOGA 各項參觀規定，未遵守規定者，本公司保留謝絕入館之權利。</h7>
+            </li>
+            <li>
+                <h7>4. DOYOGA 保留修改預約須知之權利，修改後的條款將公佈於本網站上，不另外個別通知。如果您繼續在本網站進行參觀預約，就表示您已經了解、並同意遵守修改後的約定條款。</h7>
+            </li>
+        </ul>
+    </div>
 </div>
-</div>
+
+
 
   <footer class="footer bg-secondary">
     <div class="border-bottom">

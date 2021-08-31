@@ -21557,4 +21557,64 @@ body {
   bottom: 600px;
 }
 
+.reservation-step-items {
+  width: 104px;
+  height: 48px;
+}
+
+@media (min-width: 768px) {
+  .reservation-experience-items {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .reservation-experience-items {
+    width: 100%;
+  }
+}
+
+.reservation-experience-items-img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 243px;
+  border-radius: 16px 16px 0 0;
+}
+
+@media (min-width: 768px) {
+  .reservation-experience-items-img {
+    width: 100%;
+    height: 238px;
+    border-radius: 16px 0 0 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  .reservation-experience-items-img {
+    border-radius: 16px 16px 0 0;
+  }
+}
+
+.reservation-experience-items-btn {
+  width: 100%;
+}
+
+.reservation-information-list {
+  margin-bottom: 88px;
+}
+
+@media (min-width: 768px) {
+  .reservation-information-list {
+    width: 445px;
+    margin-bottom: 80px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .reservation-information-list {
+    margin-bottom: 104px;
+  }
+}
+
 /*# sourceMappingURL=all.css.map */
