@@ -10,6 +10,12 @@
 @import "./component/progressbar";
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+
+
+
+@import './vendor/datepicker';
+@import '../../../node_modules/vanillajs-datepicker/sass/datepicker.scss';
+
 @import './layout/_index.scss';
 @import './layout/_reserve_form';
 

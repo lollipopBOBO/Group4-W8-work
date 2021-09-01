@@ -71,6 +71,6 @@ const courseSwiper = new Swiper(".course-swiper", {
 const elem = document.querySelector('input[name="datepicker"]');
 const datepicker = new Datepicker(elem, {
   // ...options
-  todayHighlight:true,
+  // todayHighlight:true,
  
 }); 
