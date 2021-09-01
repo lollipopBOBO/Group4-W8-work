@@ -66,3 +66,11 @@ const courseSwiper = new Swiper(".course-swiper", {
      }
   });
  }
+
+//  date-picker
+const elem = document.querySelector('input[name="datepicker"]');
+const datepicker = new Datepicker(elem, {
+  // ...options
+  todayHighlight:true,
+ 
+}); 
