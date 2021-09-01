@@ -64,5 +64,11 @@ if (responseSwiper) {
       }
     }
   });
-}
+} //  date-picker
+
+
+var elem = document.querySelector('input[name="datepicker"]');
+var datepicker = new Datepicker(elem, {// ...options
+  // todayHighlight:true,
+});
 //# sourceMappingURL=all.js.map
