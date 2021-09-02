@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>立即預約｜填寫資料</title>
+  <title>立即預約｜完成預約</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
   <link rel="stylesheet" href="./assets/style/bootstrap.css">
   <!-- Swiper -->
@@ -64,79 +64,75 @@
     </ul>
   </div>
 
-  <div class="reserveform--py">
-<div class="container  text-center ">
-    <h2 class="h4 text-secondary mb-5 mb-md-3">立即預約</h2>
-    <ul class="progressbar row justify-content-center  list-unstyled ">
-        <li class="col col-md-2">
-          <p class="progressbar__item bg-light  text-secondary">選擇方案</p>
-        </li>
-        <li class="col col-md-2">
-            <p class="progressbar__item bg-secondary  text-light" >填寫資料</p>
-        </li>
-        <li  class="col col-md-2">
-            <p class="progressbar__item bg-light  text-secondary" >完成預約</p>
-        </li>
-    </ul>
-    <p class=" text-dark mt-7 mt-md-5 my-lg-7 mb-5 ">您選擇的是 <span class="h5 text-primary ms-3">首次體驗課程-基礎</span></p>
-  <div class="reserve__form__question d-flex justify-content-center">
-    <form action="" method="POST" >
-    <ul class="list-unstyled text-start ">
-        <li class="mb-7">
-            <label class="mb-3" for="yes">1. 是否接觸過瑜珈?</label> <br>
-            <input class="form-check-input me-1" type="radio" name="accessYoga" value="yes" id="yes" checked><label class="me-7" for="yes">是</label>
-            <input class="form-check-input me-1" type="radio" name="accessYoga" value="no" id="no" ><label for="no">否</label>
-        </li>
-        <li class="mb-7">
-            <label class="mb-3" for="pb_1">2. 想改善的生活問題?</label>  <br>
-            <input class="form-check-input me-1"  type="checkbox" name="problem" value="pb_1" id="pb_1"><label class="input__me-12 mb-3"  for="pb_1">肌耐力不足</label>
-            <input class="form-check-input me-1"  type="checkbox" name="problem" value="pb_2" id="pb_2"><label class="input__me-12 mb-3"  for="pb_2">柔軟度不佳</label>
-            <input class="form-check-input me-1"  type="checkbox" name="problem" value="pb_3" id="pb_3"><label class="input__me-12 mb-3"  for="pb_3">壓力大</label> <br>
-            <input class="form-check-input me-1"  type="checkbox" name="problem" value="pb_4" id="pb_4"><label class="input__me-28 mb-3 "  for="pb_4">姿勢不正</label>
-            <input class="form-check-input me-1"  type="checkbox" name="problem" value="pb_5" id="pb_5"><label class="input__me-12 mb-3"  for="pb_5">睡眠品質差</label>
-            <input class="form-check-input me-1"  type="checkbox" name="problem" value="pb_6" id="pb_6"><label class="input__me-12 mb-3"  for="pb_6">注意力不足</label>
-        </li>
-        <li class="mb-7">
-            <label class="mb-3" for="eT_1">3. 每週累積運動量約為多少？</label>  <br>
-            <input class="form-check-input me-1" type="radio" name="exerciseTime" value="eT_1" id="eT_1"><label class="me-7 mb-3" for="eT_1">150 分鐘以上</label>
-            <input class="form-check-input me-1" type="radio" name="exerciseTime" value="eT_2" id="eT_2"><label class="me-7 mb-3" for="eT_2">75~150 分鐘</label> <br>
-            <input class="form-check-input me-1" type="radio" name="exerciseTime" value="eT_3" id="eT_3"><label class="input__me-46 mb-3" for="eT_3">30~75 分鐘</label>
-            <input class="form-check-input me-1" type="radio" name="exerciseTime" value="eT_4" id="eT_4"><label class="me-7 mb-3" for="eT_4">30 分鐘以下</label>
-        </li>
-        <li class="mb-7">
-            <p class="mb-0">4. 上課預約報到日</p>
-            <p>若還沒有確定的日期，可以等待專員與您聯絡時在做詳細的諮詢哦！</p>
-            <input class="w-25 form-control" type="text" placeholder="MM/DD/YYYY" name="datepicker" >
-        </li>
-        <li class="mb-7">
-            <p>5. 填寫基本資料，完成預約後會寄送通知至電子信箱</p>  
-            <div class="d-flex flex-column" >
-            <div  class="d-flex mb-2">
-             <label class="w-50 me-2 " for="name">姓名</label> <br>          
-             <label class=" w-50 " for="age">年齡</label> <br>
+  
+<div class="reserveform--py">
+    <div class="container  text-center ">
+        <h2 class="h4 text-secondary mb-5 mb-md-3">立即預約</h2>
+        <ul class="progressbar row justify-content-center  list-unstyled ">
+            <li class="col col-md-2">
+              <p class="progressbar__item bg-light  text-secondary">選擇方案</p>
+            </li>
+            <li class="col col-md-2">
+                <p class="progressbar__item bg-light  text-secondary" >填寫資料</p>
+            </li>
+            <li  class="col col-md-2">
+                <p class="progressbar__item bg-secondary  text-light" >完成預約</p>
+            </li>
+        </ul>
+        <span class=" material-icons text-primary fs-1 mt-7 mt-md-6 mt-lg-13 mb-4">
+            check_circle_outline
+        </span>
+        <p class="fs-6 mb-7">已完成預約，以下是您的預約資訊:</p>
+        <div class="row justify-content-center">
+            <div class="col col-md-8 col-lg-6">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                          <button class="accordion-button text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" >
+                            預約資訊
+                          </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show"  data-bs-parent="#accordionExample">
+                          <div class="accordion-body  text-start text-secondary">
+                            <p >您預約的是 <span class="fs-6 text-primary ms-2">首次體驗課程-基礎</span></p>
+                            <p>上課預約報到日：2021/07/21</p>  
+                            <p>預約人：Joanne Chen</p>
+                            <p>年齡：18 歲</p>
+                            <p>性別：女</p>
+                            <p>電子信箱：example123@gmail.com</p>
+                            <p>手機號碼：0912-345-678</p>
+                        </div>
+                        </div>
+                      </div>
+                </div>
             </div>
-            <div class="d-flex mb-3">
-             <input class="w-50 me-2  form-control" type="text" name="name" id="name" placeholder="請輸入您的姓名"> <br>
-             <input class="w-50 form-control " type="text" name="age" id="age" placeholder="請輸入您的年齡"> <br>
-            </div>
-            </div>
-            <label class="mb-2" for="gender">性別</label> <br>
-            <select class="w-25 mb-3 form-select" id="gender"> 
-                <option value="female" >女</option>
-                <option value="male" >男</option>
-            </select> <br>
-            <label class="mb-2" for="email">電子信箱</label> <br>
-            <input class="w-100 mb-3 form-control" type="email" name="email" id="email" placeholder="email@example.com"> <br>
-          
-            <label class="mb-2" for="phone">手機號碼</label> <br>
-            <input class="w-100 form-control " type="tel" name="phone" id="phone" placeholder="0912-345-678">
-            
-        </li>
-    </ul>
-    <a href="./reserve_finish.html" class=" btn btn-primary text-white w-100  py-2"> 送出</a>
-    </form>
+               
+
+
+
+
+        </div>
+        
+        <h2 class="h6 text-secondary  mt-5 mb-2">上課注意事項</h2>
+        <div class="row justify-content-center text-start">
+            <div class="col col-md-6 col-lg-4">    
+                <p class="text-secondary mb-7 lh-base">第一次上課請提前 10-15 分鐘至櫃檯報到，請攜帶毛巾、水 .穿著運動服、乾淨室內運動鞋。<br> 如欲更改體驗時間請提前通知我們喔！</p>
+                <a href="./index.html" class=" btn btn-primary text-white w-100 py-2"> 返回首頁</a>
+             </div>
+        </div>
     </div>
-</div>
+       
+       
+
+
+
+
+
+
+
+    
+  
+   
 </div>
 
   <footer class="footer bg-secondary">
