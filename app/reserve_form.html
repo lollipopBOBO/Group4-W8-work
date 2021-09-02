@@ -4,7 +4,7 @@ layout: ./app/layout.ejs
 engine: ejs
 current: reserve_form
 ---
-<div class="reserve__form">
+<div class="reserveform--py">
 <div class="container  text-center ">
     <h2 class="h4 text-secondary mb-5 mb-md-3">立即預約</h2>
     <ul class="progressbar row justify-content-center  list-unstyled ">
@@ -18,7 +18,7 @@ current: reserve_form
             <p class="progressbar__item bg-light  text-secondary" >完成預約</p>
         </li>
     </ul>
-    <p class=" text-dark mt-7 mt-md-5 my-lg-7 mb-5  ">您選擇的是 <span class="h5 text-primary ms-3">首次體驗課程-基礎</span></p>
+    <p class=" text-dark mt-7 mt-md-5 my-lg-7 mb-5 ">您選擇的是 <span class="h5 text-primary ms-3">首次體驗課程-基礎</span></p>
   <div class="reserve__form__question d-flex justify-content-center">
     <form action="" method="POST" >
     <ul class="list-unstyled text-start ">
@@ -73,7 +73,7 @@ current: reserve_form
             
         </li>
     </ul>
-    <button class="w-100 btn btn-primary text-white">送出</button>
+    <a href="./reserve_finish.html" class="w-100 btn btn-primary text-white"> 送出</a>
     </form>
     </div>
 </div>

@@ -262,6 +262,7 @@ $spacers: (
   10: $spacer * 3.5,  //56px  8/24新增
   11: $spacer * 4,  //64px
   12: $spacer * 1.875,  //30px 8/28新增
+  13: $spacer * 2.25, //36px 9/2新增
 ) !default;
 
 //$spacers: (
@@ -1144,9 +1145,9 @@ $accordion-body-padding-x:                $accordion-padding-x !default;
 $accordion-button-padding-y:              $accordion-padding-y !default;
 $accordion-button-padding-x:              $accordion-padding-x !default;
 $accordion-button-color:                  $accordion-color !default;
-$accordion-button-bg:                     $accordion-bg !default;
+$accordion-button-bg:                     $secondary!default; //$accordion-bg 
 $accordion-transition:                    $btn-transition, border-radius .15s ease !default;
-$accordion-button-active-bg:              tint-color($component-active-bg, 90%) !default;
+$accordion-button-active-bg:              $secondary !default; //    tint-color($component-active-bg, 90%)
 $accordion-button-active-color:           shade-color($primary, 10%) !default;
 
 $accordion-button-focus-border-color:     $input-focus-border-color !default;
