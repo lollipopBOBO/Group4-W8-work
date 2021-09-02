@@ -12,13 +12,11 @@
 
 .course_intro_main--pb {
     padding-bottom: 48px;
-    outline: red 1px solid;
     @include media-breakpoint-up(md) {
         padding-bottom: 72px;
       }
     
 }
-
 
 
 .course_intro_img  { 
@@ -33,3 +31,13 @@
   
    
 }
+
+
+.container {
+    outline: red 1px solid;
+}
+
+.row {
+    outline: 1px solid blue;
+}
+
