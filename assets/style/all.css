@@ -22849,6 +22849,51 @@ body {
   margin-right: 46px;
 }
 
+.course_intro--py {
+  padding-top: 48px;
+  padding-bottom: 88px;
+}
+
+@media (min-width: 768px) {
+  .course_intro--py {
+    padding-top: 64px;
+    padding-bottom: 80px;
+  }
+}
+
+@media (min-width: 992px) {
+  .course_intro--py {
+    padding-bottom: 113px;
+  }
+}
+
+.course_intro_main--pb {
+  padding-bottom: 48px;
+  outline: red 1px solid;
+}
+
+@media (min-width: 768px) {
+  .course_intro_main--pb {
+    padding-bottom: 72px;
+  }
+}
+
+.course_intro_img {
+  height: 218px;
+}
+
+@media (min-width: 768px) {
+  .course_intro_img {
+    height: 369px;
+  }
+}
+
+@media (min-width: 992px) {
+  .course_intro_img {
+    height: 345px;
+  }
+}
+
 .textsub {
   color: #fff;
   font-size: 1.5rem;
