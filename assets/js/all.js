@@ -1,5 +1,7 @@
 "use strict";
 
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
 $(function () {
   console.log('Hello Bootstrap5');
 }); //課程多元 swiper
@@ -64,6 +66,33 @@ if (responseSwiper) {
       }
     }
   });
+} //teacher-intro-swiper
+
+
+var teachintroSwiper = document.querySelector('.teacher-intro-swiper');
+
+if (teachintroSwiper) {
+  var _Swiper;
+
+  var _swiper = new Swiper(".teacher-intro-swiper", (_Swiper = {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true
+    },
+    autoplay: {
+      delay: 4000,
+      disableOnInteraction: false
+    }
+  }, _defineProperty(_Swiper, "spaceBetween", 30), _defineProperty(_Swiper, "breakpoints", {
+    768: {
+      slidesPerView: 2
+    },
+    992: {
+      slidesPerView: 3
+    }
+  }), _Swiper));
 } //  date-picker
 
 
