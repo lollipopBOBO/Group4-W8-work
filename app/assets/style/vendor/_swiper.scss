@@ -4,3 +4,16 @@
 //     width: 100%;
 //     height: 100%;
 // }
+
+
+
+.teacher-intro-swiper {
+    @include media-breakpoint-down(md) {
+       position: absolute;
+       visibility: hidden;
+      }
+      
+     }
+
+
+

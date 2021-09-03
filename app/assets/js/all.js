@@ -67,6 +67,39 @@ const courseSwiper = new Swiper(".course-swiper", {
   });
  }
 
+
+ //teacher-intro-swiper
+ const teachintroSwiper = document.querySelector('.teacher-intro-swiper');
+ if (teachintroSwiper) {
+  const swiper = new Swiper(".teacher-intro-swiper", {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    autoplay: {
+      delay: 4000,
+      disableOnInteraction: false,
+    },
+    spaceBetween: 30,
+    breakpoints: {
+     768: {
+      slidesPerView: 2,
+    
+      },
+     992: {
+     slidesPerView: 3,
+     
+     },
+     }
+  });
+ }
+
+
+
+
+
 //  date-picker
 const elem = document.querySelector('input[name="datepicker"]');
 const datepicker = new Datepicker(elem, {
